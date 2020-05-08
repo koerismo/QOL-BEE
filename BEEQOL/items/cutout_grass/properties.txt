@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Panels"
+	"Authors"		"Baguettery"
+	"Description"	
+		{
+		"" "Overgrown Cutout Tile Decoration"
+		}
+	"Ent_count"     "Moving: 0\nStatic: 2"
+	"infoURL"		"No"
+	"Icon"
+		{
+			"0"	"clean/cutout_black_0.png"
+		}
+	}

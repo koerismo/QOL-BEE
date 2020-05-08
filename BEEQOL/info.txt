@@ -1,0 +1,27 @@
+"ID"		"QOL_DECO"
+"Name"		"QOL Items"
+"Desc"      "Some items from the QOL instance collection."
+
+	
+"Item"
+	{
+	"ID" "ITEM_CUTOUT_GRASS"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"cutout_grass"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "ITEM_BROKEN_WALL"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_wall"
+			}
+		}
+	}

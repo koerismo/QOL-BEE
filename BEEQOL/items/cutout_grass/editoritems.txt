@@ -1,0 +1,127 @@
+"Item"
+	{
+	"Type"	"ITEM_CUTOUT_GRASS"
+	"ItemClass"	"ItemButtonFloor"
+	"Editor"
+		{
+		"SubTypeProperty"	"ButtonType"
+		"SubType"
+			{
+			"Name"			"Overgrown Cutout"
+			"Model"
+				{
+				"ModelName"	"floor_black_cutout_2.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUTOUT"
+				"Image"		"palette/BEE2/floor_black_cutout_0.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Overgrown Cutout"
+			"Model"
+				{
+				"ModelName"	"floor_black_cutout_1.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUTOUT"
+				"Image"		"palette/BEE2/floor_black_cutout_0.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Overgrown Cutout"
+			"Model"
+				{
+				"ModelName"	"floor_black_cutout_0.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUTOUT"
+				"Image"		"palette/BEE2/floor_black_cutout_0.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"InvalidSurface"    "CEILING WALL"
+		}
+	"Properties"
+		{
+		"Portalable"
+			{
+			"DefaultValue"	"1"
+			"Index"			"0"
+			}
+		"ButtonType"
+			{
+			"DefaultValue"  "0"
+			"Index"         "0"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"				"instances/BEE2/clean/items/panel_angled.vmf"
+				"EntityCount"		"12"
+				"BrushCount"		"5"
+				"BrushSideCount"	"39"
+				}
+			}
+
+		"TargetName"		"ap"
+		"Inputs"
+			{
+			}
+		"Offset"		"64 64 64"
+		"OccupiedVoxels"
+			{
+			"Voxel"
+				{
+				"CollideType"		"COLLIDE_SOLID"
+				"CollideAgainst"	"COLLIDE_SOLID COLLIDE_PHYSICS COLLIDE_ANTLINES"
+
+				"Pos"		"0 0 0"
+				"Surface"
+					{
+					"Normal"	"0 0 1"
+					}
+				}
+			}
+		"EmbeddedVoxels"
+			{
+			"Voxel"
+				{
+				"Pos"		"0 0 0"
+				}
+			}
+		"ConnectionPoints"
+			{
+			}
+		}
+	}
