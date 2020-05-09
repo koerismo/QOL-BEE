@@ -7,7 +7,7 @@
 		"SubTypeProperty"	"ButtonType"
 		"SubType"
 			{
-			"Name"			"Overgrown Cutout"
+			"Name"			"Overgrown Cutout (Barely Damaged)"
 			"Model"
 				{
 				"ModelName"	"floor_black_cutout_2.3ds"
@@ -15,19 +15,17 @@
 			"Palette"
 				{
 				"Tooltip"		"CUTOUT"
-				"Image"		"palette/BEE2/floor_black_cutout_0.png"
+				"Image"		"palette/BEE2/floor_black_cutout_2.png"
 				}
 			"Sounds"
 				{
 				"SOUND_CREATED"					"P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
 				"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
 		"SubType"
 			{
-			"Name"			"Overgrown Cutout"
+			"Name"			"Overgrown Cutout (Somewhat Damaged)"
 			"Model"
 				{
 				"ModelName"	"floor_black_cutout_1.3ds"
@@ -35,19 +33,19 @@
 			"Palette"
 				{
 				"Tooltip"		"CUTOUT"
-				"Image"		"palette/BEE2/floor_black_cutout_0.png"
+				"Image"		"palette/BEE2/floor_black_cutout_1.png"
 				}
 			"Sounds"
 				{
 				"SOUND_CREATED"					"P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				//"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				//"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
 				"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
 		"SubType"
 			{
-			"Name"			"Overgrown Cutout"
+			"Name"			"Overgrown Cutout (Very Damaged)"
 			"Model"
 				{
 				"ModelName"	"floor_black_cutout_0.3ds"
@@ -60,8 +58,6 @@
 			"Sounds"
 				{
 				"SOUND_CREATED"					"P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
 				"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
@@ -87,10 +83,45 @@
 			{
 			"0"
 				{
-				"Name"				"instances/BEE2/clean/items/panel_angled.vmf"
-				"EntityCount"		"12"
-				"BrushCount"		"5"
-				"BrushSideCount"	"39"
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_2.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"1"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_2.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"2"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_1.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"3"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_1.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"4"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_0.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"5"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_0.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
 				}
 			}
 
@@ -103,8 +134,8 @@
 			{
 			"Voxel"
 				{
-				"CollideType"		"COLLIDE_SOLID"
-				"CollideAgainst"	"COLLIDE_SOLID COLLIDE_PHYSICS COLLIDE_ANTLINES"
+				"CollideType"		"COLLIDE_NONE"
+				"CollideAgainst"	"COLLIDE_ANTLINES"
 
 				"Pos"		"0 0 0"
 				"Surface"

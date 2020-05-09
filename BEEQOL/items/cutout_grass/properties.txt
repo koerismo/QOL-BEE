@@ -11,5 +11,7 @@
 	"Icon"
 		{
 			"0"	"clean/cutout_black_0.png"
+			"1"	"clean/cutout_black_1.png"
+			"2"	"clean/cutout_black_2.png"
 		}
 	}
