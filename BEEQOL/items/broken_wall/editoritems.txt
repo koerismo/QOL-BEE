@@ -17,7 +17,7 @@
 			}
 			"Palette"
 			{
-				"Tooltip"	"Destroyed Wall"
+				"Tooltip"	"DESTROYED WALL"
 				"Image"		"palette/BEE2/broken_wall_black_0.png"
 				"Position"	"3 2 0"
 			}
@@ -30,6 +30,8 @@
 			}
 		}
 		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"InvalidSurface"    "FLOOR CEILING"
+		
 	}
 	"Properties"
 	{
@@ -50,11 +52,6 @@
 		"TargetName"		"st"
 		"Inputs"
 		{
-			"CONNECTION_STANDARD"
-			{
-				"Activate"      "instance:counter;Add"
-				"Deactivate"    "instance:counter;Subtract"
-			}
 		}
 		"Offset"		"64 64 64"
 
