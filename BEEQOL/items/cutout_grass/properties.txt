@@ -10,8 +10,8 @@
 	"infoURL"		"No"
 	"Icon"
 		{
-			"0"	"clean/cutout_black_0.png"
-			"1"	"clean/cutout_black_1.png"
-			"2"	"clean/cutout_black_2.png"
+			"0"	"clean/broken_tile.png"
+			"1"	"clean/broken_tile.png"
+			"2"	"clean/broken_tile.png"
 		}
 	}
