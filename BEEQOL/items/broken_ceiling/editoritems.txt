@@ -9,7 +9,7 @@
 			"Name"		"Destroyed Ceiling 2x2"
 			"Model"
 			{
-				"ModelName"	"broken_ceiling_2x2.3ds"
+				"ModelName"	"broken_ceiling_256x256.3ds"
 			}
 			"Palette"
 			{
@@ -25,8 +25,7 @@
 			}
 		}
 		"MovementHandle"	"HANDLE_4_DIRECTIONS"
-		"InvalidSurface"    "FLOOR WALLS"
-		"DesiredFacing"	"DESIRES_UP"
+		"DesiredFacing"	"DESIRES_DOWN"
 		
 	}
 	"Properties"
@@ -43,23 +42,22 @@
 				"BrushCount"		"7"
 				"BrushSideCount"	"56"
 			}
+			"1"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Wall/broken_ceiling_2x2.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
 		}
-		"Offset"		"0 0 64"
+		"Offset"		"64 64 64"
 
 		"OccupiedVoxels"
 		{
 			"Volume"
 			{
-				"Pos1"		"0.5 -0.5 1"
-				"Pos2"		"-0.5 0.5 0"
-				"Surface"
-				{
-					"Normal"	"0 0 1"
-				}
-			}
-			"Voxel"
-			{
-				"Pos"		"0 0 0"
+				"Pos1"		"0 -1 0"
+				"Pos2"		"1 0 0"
 				"Surface"
 				{
 					"Normal"	"0 0 1"
@@ -70,8 +68,8 @@
 		{
 			"Volume"
 			{
-				"Pos1"		"0.5 -0.5 0"
-				"Pos2"		"-0.5 0.5 -1"
+				"Pos1"		"-1 -2 0"
+				"Pos2"		"2 1 -1"
 			}
 		}
 	}
