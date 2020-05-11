@@ -1,20 +1,20 @@
 "Item"
 		{
-		"ItemClass"		"ItemPedestalButton"
+		"ItemClass"		"ItemButtonFloor"
 		"Type"			"Foliage"
 		"Editor"
 			{
-			"SubTypeProperty"		"TimerDelay"
+			"SubTypeProperty"		"CubeType"
 			"SubType"
 				{
-				"Name"		"SMALL BUSH"
+				"Name"		"BUSH"
 				"Model"
 					{
-					"ModelName"		"\models\props_foliage\bush01.3ds"
+					"ModelName"		"foliage/bush01.3ds"
 					}
 				"Palette"
 					{
-					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_pedestal_button"
+					"Tooltip"		"BUSH"
 					"Image"			"palette/pedestal_button.png"
 					}
 				"Sounds"
@@ -25,14 +25,14 @@
 				}
 			"SubType"
 				{
-				"Name"		"MEDIUM BUSH"
+				"Name"		"FERN"
 				"Model"
 					{
-					"ModelName"		"\models\props_foliage\bush01.3ds"
+					"ModelName"		"foliage/fern_cluster01.3ds"
 					}
 				"Palette"
 					{
-					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_pedestal_button"
+					"Tooltip"		"FERN"
 					"Image"			"palette/pedestal_button.png"
 					}
 				"Sounds"
@@ -43,32 +43,14 @@
 				}
 			"SubType"
 				{
-				"Name"		"LARGE BUSH"
+				"Name"		"TREE"
 				"Model"
 					{
-					"ModelName"		"\models\props_foliage\bush01.3ds"
+					"ModelName"		"foliage/mall_tree_medium01.3ds"
 					}
 				"Palette"
 					{
-					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_pedestal_button"
-					"Image"			"palette/pedestal_button.png"
-					}
-				"Sounds"
-					{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-					}
-				}
-			"SubType"
-				{
-				"Name"		"SAPLING"
-				"Model"
-					{
-					"ModelName"		"\models\props_foliage\bush01.3ds"
-					}
-				"Palette"
-					{
-					"Tooltip"		"PORTAL2_PuzzleEditor_Palette_pedestal_button"
+					"Tooltip"		"TREE"
 					"Image"			"palette/pedestal_button.png"
 					}
 				"Sounds"
@@ -81,6 +63,11 @@
 			}
 		"Properties"
 			{
+			"CubeType"
+				{
+					"DefaultValue" "0"
+					"Index" "1"
+				}
 			}
 		"Exporting"
 			{
@@ -88,23 +75,33 @@
 				{
 				"0"
 					{
-					"Name"				"instances/BEE2/clean/items/button/pedestal.vmf"
-					"EntityCount"		"7"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/BEE2/clean/items/qol_foliage/bush.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				"1"
+					{
+					"Name"				"instances/BEE2/clean/items/qol_foliage/fern.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				"2"
+					{
+					"Name"				"instances/BEE2/clean/items/qol_foliage/tree.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 					}
 				}
-
-			"TargetName"		"fol"
-			"Outputs"
-				{
-				}
-
 			"OccupiedVoxels"
 				{
 				"Voxel"
 					{
 					"Pos"		"0 0 0"
+					"CollideType"	"COLLIDE_NONE"
+					"CollideAgainst"	"COLLIDE_NONE"
 
 					"Surface"
 						{
@@ -139,11 +136,6 @@
 						}
 					}
 				}
-
-			"ConnectionPoints"
-				{
-				}
-
 			"Offset"	"64 64 64"
 			}
 		}

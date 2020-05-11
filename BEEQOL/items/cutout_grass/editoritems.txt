@@ -83,7 +83,7 @@
 			{
 			"0"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_2.vmf"
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/White_2.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
@@ -97,7 +97,7 @@
 				}
 			"2"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_1.vmf"
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/White_1.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
@@ -111,7 +111,7 @@
 				}
 			"4"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_0.vmf"
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/White_0.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
@@ -123,11 +123,6 @@
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
 				}
-			}
-
-		"TargetName"		"ap"
-		"Inputs"
-			{
 			}
 		"Offset"		"64 64 64"
 		"OccupiedVoxels"

@@ -2,7 +2,7 @@
 "Name"		"QOL Items"
 "Desc"      "Some items from the QOL instance collection."
 
-	
+
 "Item"
 	{
 	"ID" "ITEM_CUTOUT_GRASS"
@@ -11,6 +11,19 @@
 		"Styles"
 			{
 			"BEE2_CLEAN"	"cutout_grass"
+			"BEE2_OVERGROWN"
+				{
+					"Folder" "cutout_grass"
+					"Instances"
+					{
+					"0" "instances/BEE2/over/items/Cutout/Floor/White_2.vmf"
+					"1" "instances/BEE2/over/items/Cutout/Floor/Black_2.vmf"
+					"2" "instances/BEE2/over/items/Cutout/Floor/White_1.vmf"
+					"3" "instances/BEE2/over/items/Cutout/Floor/Black_1.vmf"
+					"4" "instances/BEE2/over/items/Cutout/Floor/White_0.vmf"
+					"5" "instances/BEE2/over/items/Cutout/Floor/Black_0.vmf"
+					}
+				}
 			}
 		}
 	}
@@ -22,6 +35,39 @@
 		"Styles"
 			{
 			"BEE2_CLEAN"	"broken_wall"
+			"BEE2_OVERGROWN"
+				{
+					"Folder" "broken_wall"
+					"Instances"
+					{
+					"0"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf"
+					"1" "instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
+					"2" "instances/BEE2/over/items/Broken Wall/broken_wall_white_1.vmf"
+					"3" "instances/BEE2/over/items/Broken Wall/broken_wall_black_1.vmf"
+					}
+				}
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "ITEM_FOLIAGE"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"foliage"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "ITEM_BROKEN_CEILING"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_ceiling"
 			}
 		}
 	}

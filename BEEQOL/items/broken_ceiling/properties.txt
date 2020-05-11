@@ -4,12 +4,12 @@
 	"Authors"		"Baguettery"
 	"Description"	
 		{
-		"" "A 1x2 Overgrown Wall."
+		"" "A 2x2 section of ceiling that has been torn apart."
 		}
 	"infoURL"		""
 	"Ent_count"     "10"
 	"Icon"
 		{
-			"0"	"clean/broken_wall.png"
+			"0"	"clean/broken_ceil.png"
 		}
 	}
