@@ -43,7 +43,21 @@
 				"BrushCount"		"7"
 				"BrushSideCount"	"56"
 			}
-			"0"
+			"1"
+			{
+				"Name"				"instances/BEE2/clean/items/Broken Wall/broken_wall_black_0.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"2"
+			{
+				"Name"				"instances/BEE2/clean/items/Broken Wall/broken_wall_white_0.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"3"
 			{
 				"Name"				"instances/BEE2/clean/items/Broken Wall/broken_wall_black_0.vmf"
 				"EntityCount"		"13"

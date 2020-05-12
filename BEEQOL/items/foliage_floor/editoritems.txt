@@ -1,13 +1,13 @@
 "Item"
 		{
 		"ItemClass"		"ItemButtonFloor"
-		"Type"			"Foliage"
+		"Type"			"Floor Foliage"
 		"Editor"
 			{
 			"SubTypeProperty"		"CubeType"
 			"SubType"
 				{
-				"Name"		"BUSH"
+				"Name"		"Bush"
 				"Model"
 					{
 					"ModelName"		"foliage/bush01.3ds"
@@ -25,7 +25,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"FERN"
+				"Name"		"Fern"
 				"Model"
 					{
 					"ModelName"		"foliage/fern_cluster01.3ds"
@@ -43,7 +43,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"TREE"
+				"Name"		"Tree"
 				"Model"
 					{
 					"ModelName"		"foliage/mall_tree_medium01.3ds"
@@ -60,6 +60,8 @@
 					}
 				}
 			"MovementHandle"		"HANDLE_8_POSITIONS"
+			"DesiredFacing"		"DESIRES_UP"
+			"InvalidSurface"		"CEILING WALL"
 			}
 		"Properties"
 			{

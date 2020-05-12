@@ -41,9 +41,9 @@
 					"Instances"
 					{
 					"0"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf"
-					"1" "instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
-					"2" "instances/BEE2/over/items/Broken Wall/broken_wall_white_1.vmf"
-					"3" "instances/BEE2/over/items/Broken Wall/broken_wall_black_1.vmf"
+					"1"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
+					"2"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf" //I am currently missing these variants
+					"3"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
 					}
 				}
 			}
@@ -51,12 +51,12 @@
 	}
 "Item"
 	{
-	"ID" "ITEM_FOLIAGE"
+	"ID" "ITEM_FOLIAGE_FLOOR"
 	"Version"
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"foliage"
+			"BEE2_CLEAN"	"foliage_floor"
 			}
 		}
 	}
