@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "20"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34,7 +34,7 @@ world
 		{
 			"id" "885"
 			"plane" "(0 -64 -64) (0 -32 -64) (32 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -45,7 +45,7 @@ world
 		{
 			"id" "884"
 			"plane" "(0 -32 -65) (0 -64 -65) (32 -64 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -56,7 +56,7 @@ world
 		{
 			"id" "883"
 			"plane" "(0 -64 -65) (0 -32 -65) (0 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -67,7 +67,7 @@ world
 		{
 			"id" "882"
 			"plane" "(32 -32 -65) (32 -64 -65) (32 -64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -78,7 +78,7 @@ world
 		{
 			"id" "881"
 			"plane" "(0 -32 -65) (32 -32 -65) (32 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -89,7 +89,7 @@ world
 		{
 			"id" "880"
 			"plane" "(32 -64 -65) (0 -64 -65) (0 -64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -682,7 +682,7 @@ entity
 		{
 			"id" "627"
 			"plane" "(32 64 -64) (64 64 -64) (64 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -693,7 +693,7 @@ entity
 		{
 			"id" "626"
 			"plane" "(64 32 -65) (64 64 -65) (32 64 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -704,7 +704,7 @@ entity
 		{
 			"id" "625"
 			"plane" "(64 64 -65) (64 32 -65) (64 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -715,7 +715,7 @@ entity
 		{
 			"id" "624"
 			"plane" "(32 64 -65) (64 64 -65) (64 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -726,7 +726,7 @@ entity
 		{
 			"id" "623"
 			"plane" "(32 32 -65) (32 64 -65) (32 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -737,7 +737,7 @@ entity
 		{
 			"id" "622"
 			"plane" "(64 32 -65) (32 32 -65) (32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -758,7 +758,7 @@ entity
 		{
 			"id" "867"
 			"plane" "(64 0 -64) (64 -32 -64) (32 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -769,7 +769,7 @@ entity
 		{
 			"id" "866"
 			"plane" "(32 0 -65) (32 -32 -65) (64 -32 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -780,7 +780,7 @@ entity
 		{
 			"id" "865"
 			"plane" "(64 0 -65) (64 -32 -65) (64 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -791,7 +791,7 @@ entity
 		{
 			"id" "864"
 			"plane" "(32 -32 -65) (32 -0 -65) (32 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -802,7 +802,7 @@ entity
 		{
 			"id" "863"
 			"plane" "(32 0 -65) (64 0 -65) (64 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -813,7 +813,7 @@ entity
 		{
 			"id" "862"
 			"plane" "(64 -32 -65) (32 -32 -65) (32 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -834,7 +834,7 @@ entity
 		{
 			"id" "711"
 			"plane" "(-32 -64 -64) (-64 -64 -64) (-64 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -845,7 +845,7 @@ entity
 		{
 			"id" "710"
 			"plane" "(-64 -32 -65) (-64 -64 -65) (-32 -64 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -856,7 +856,7 @@ entity
 		{
 			"id" "709"
 			"plane" "(-64 -64 -65) (-64 -32 -65) (-64 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -867,7 +867,7 @@ entity
 		{
 			"id" "708"
 			"plane" "(-32 -64 -65) (-64 -64 -65) (-64 -64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -878,7 +878,7 @@ entity
 		{
 			"id" "707"
 			"plane" "(-32 -32 -65) (-32 -64 -65) (-32 -64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -889,7 +889,7 @@ entity
 		{
 			"id" "706"
 			"plane" "(-64 -32 -65) (-32 -32 -65) (-32 -32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -910,7 +910,7 @@ entity
 		{
 			"id" "645"
 			"plane" "(-64 32 -64) (-64 64 -64) (-32 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -921,7 +921,7 @@ entity
 		{
 			"id" "644"
 			"plane" "(-32 64 -65) (-64 64 -65) (-64 32 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -932,7 +932,7 @@ entity
 		{
 			"id" "643"
 			"plane" "(-64 32 -65) (-64 64 -65) (-64 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -943,7 +943,7 @@ entity
 		{
 			"id" "642"
 			"plane" "(-64 64 -65) (-32 64 -65) (-32 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -954,7 +954,7 @@ entity
 		{
 			"id" "641"
 			"plane" "(-32 64 -65) (-32 32 -65) (-32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -965,7 +965,7 @@ entity
 		{
 			"id" "640"
 			"plane" "(-32 32 -65) (-64 32 -65) (-64 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -986,7 +986,7 @@ entity
 		{
 			"id" "651"
 			"plane" "(64 32 -64) (64 0 -64) (32 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -997,7 +997,7 @@ entity
 		{
 			"id" "650"
 			"plane" "(32 32 -65) (32 0 -65) (64 0 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1008,7 +1008,7 @@ entity
 		{
 			"id" "649"
 			"plane" "(64 32 -65) (64 0 -65) (64 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1019,7 +1019,7 @@ entity
 		{
 			"id" "648"
 			"plane" "(32 0 -65) (32 32 -65) (32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1030,7 +1030,7 @@ entity
 		{
 			"id" "647"
 			"plane" "(32 32 -65) (64 32 -65) (64 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1041,7 +1041,7 @@ entity
 		{
 			"id" "646"
 			"plane" "(64 0 -65) (32 0 -65) (32 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1062,7 +1062,7 @@ entity
 		{
 			"id" "813"
 			"plane" "(0 0 -64) (-32 0 -64) (-32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1073,7 +1073,7 @@ entity
 		{
 			"id" "812"
 			"plane" "(-32 32 -65) (-32 0 -65) (0 0 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1084,7 +1084,7 @@ entity
 		{
 			"id" "811"
 			"plane" "(0 0 -65) (-32 0 -65) (-32 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1095,7 +1095,7 @@ entity
 		{
 			"id" "810"
 			"plane" "(0 32 -65) (0 0 -65) (0 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1106,7 +1106,7 @@ entity
 		{
 			"id" "809"
 			"plane" "(-32 0 -65) (-32 32 -65) (-32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1117,7 +1117,7 @@ entity
 		{
 			"id" "808"
 			"plane" "(-32 32 -65) (0 32 -65) (0 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1138,7 +1138,7 @@ entity
 		{
 			"id" "831"
 			"plane" "(-32 32 -64) (-32 64 -64) (0 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1149,7 +1149,7 @@ entity
 		{
 			"id" "830"
 			"plane" "(0 64 -65) (-32 64 -65) (-32 32 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1160,7 +1160,7 @@ entity
 		{
 			"id" "829"
 			"plane" "(-32 64 -65) (0 64 -65) (0 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1171,7 +1171,7 @@ entity
 		{
 			"id" "828"
 			"plane" "(0 64 -65) (0 32 -65) (0 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1182,7 +1182,7 @@ entity
 		{
 			"id" "827"
 			"plane" "(-32 32 -65) (-32 64 -65) (-32 64 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1193,7 +1193,7 @@ entity
 		{
 			"id" "826"
 			"plane" "(0 32 -65) (-32 32 -65) (-32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1214,7 +1214,7 @@ entity
 		{
 			"id" "837"
 			"plane" "(0 0 -64) (0 32 -64) (32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1225,7 +1225,7 @@ entity
 		{
 			"id" "836"
 			"plane" "(0 32 -65) (0 0 -65) (32 0 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -1236,7 +1236,7 @@ entity
 		{
 			"id" "835"
 			"plane" "(0 0 -65) (0 32 -65) (0 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1247,7 +1247,7 @@ entity
 		{
 			"id" "834"
 			"plane" "(32 32 -65) (32 0 -65) (32 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1258,7 +1258,7 @@ entity
 		{
 			"id" "833"
 			"plane" "(0 32 -65) (32 32 -65) (32 32 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1269,7 +1269,7 @@ entity
 		{
 			"id" "832"
 			"plane" "(32 0 -65) (0 0 -65) (0 0 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001A"
+			"material" "TILE/WHITE_FLOOR_TILE004A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
