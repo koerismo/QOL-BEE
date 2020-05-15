@@ -14,7 +14,7 @@
 			"Palette"
 			{
 				"Tooltip"	"DESTROYED CEILING"
-				"Image"		"palette/BEE2/broken_ceiling.png"
+				"Image"		"palette/BEE2/broken_ceil_64.png"
 			}
 			"Sounds"
 			{
@@ -26,8 +26,7 @@
 		}
 		"MovementHandle"	"HANDLE_4_DIRECTIONS"
 		"DesiredFacing"		"DESIRES_DOWN"
-		"InvalidSurface"	"WALLS FLOOR"
-		
+		"InvalidSurface"	"FLOOR WALL"
 	}
 	"Properties"
 	{
