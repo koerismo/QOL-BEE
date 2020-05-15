@@ -7,7 +7,7 @@
 			"SubTypeProperty"		"CubeType"
 			"SubType"
 				{
-				"Name"		"128"
+				"Name"		"Suspended Grating Floor (128)"
 				"Model"
 					{
 					"ModelName"		"art_therapy/grating_floor_128.3ds"
@@ -25,7 +25,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"256"
+				"Name"		"Suspended Grating Floor (256)"
 				"Model"
 					{
 					"ModelName"		"art_therapy/grating_floor_256.3ds"
@@ -43,7 +43,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"384"
+				"Name"		"Suspended Grating Floor (384)"
 				"Model"
 					{
 					"ModelName"		"art_therapy/grating_floor_384.3ds"
@@ -61,7 +61,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"512"
+				"Name"		"Suspended Grating Floor (512)"
 				"Model"
 					{
 					"ModelName"		"art_therapy/grating_floor_512.3ds"
@@ -116,7 +116,7 @@
 					}
 				"4"
 					{
-					"Name"				"instances/BEE2/clean/items/grating_floor/static_3.vmf"
+					"Name"				"instances/BEE2/clean/items/grating_floor/static_4.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
