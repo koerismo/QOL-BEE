@@ -15,7 +15,7 @@
 			"Palette"
 				{
 				"Tooltip"		"CUTOUT"
-				"Image"		"palette/BEE2/floor_black_cutout_2.png"
+				"Image"		"palette/BEE2/cutout_floor_2_64.png"
 				}
 			"Sounds"
 				{
@@ -33,7 +33,7 @@
 			"Palette"
 				{
 				"Tooltip"		"CUTOUT"
-				"Image"		"palette/BEE2/floor_black_cutout_1.png"
+				"Image"		"palette/BEE2/cutout_floor_1_64.png"
 				}
 			"Sounds"
 				{
@@ -53,7 +53,7 @@
 			"Palette"
 				{
 				"Tooltip"		"CUTOUT"
-				"Image"		"palette/BEE2/floor_black_cutout_0.png"
+				"Image"		"palette/BEE2/cutout_floor_0_64.png"
 				}
 			"Sounds"
 				{

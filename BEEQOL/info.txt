@@ -71,3 +71,24 @@
 			}
 		}
 	}
+"Item"
+	{
+	"ID" "QOL_GRATING_FLOOR"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"grating_floor"
+			}
+		}
+	}
+"PackList"
+	{
+	"ID" "QOL_MULTI_SCAFFOLD"
+	"Config"
+		{
+		"" "models/props_bts/scaffolding_system_bars_128.mdl"
+		"" "models/props_bts/scaffolding_system_bars_256.mdl"
+		"" "models/props_bts/scaffolding_system_bars_384.mdl"
+		}
+	}

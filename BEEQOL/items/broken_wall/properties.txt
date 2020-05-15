@@ -10,6 +10,6 @@
 	"Ent_count"     "10"
 	"Icon"
 		{
-			"0"	"clean/broken_wall.png"
+			"0"	"clean/broken_wall_64.png"
 		}
 	}

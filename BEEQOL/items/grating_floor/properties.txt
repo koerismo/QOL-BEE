@@ -1,0 +1,18 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Panels"
+	"Authors"		"Baguettery"
+	"Ent_Count"		"3"
+	"Description"	
+		{
+		"" "1x2 Suspended grating floor, as seen in Art Therapy."
+		}
+	"infoURL"		""
+	"Icon"
+		{
+			"0"	"clean/grating_floor_64.png"
+			"1"	"clean/grating_floor_64.png"
+			"2"	"clean/grating_floor_64.png"
+			"3"	"clean/grating_floor_64.png"
+		}
+	}
