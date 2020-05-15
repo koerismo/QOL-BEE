@@ -27,6 +27,7 @@
 		"MovementHandle"	"HANDLE_4_DIRECTIONS"
 		"DesiredFacing"		"DESIRES_DOWN"
 		"InvalidSurface"	"FLOOR WALL"
+		
 	}
 	"Properties"
 	{
