@@ -41,9 +41,9 @@
 					"Instances"
 					{
 					"0"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf"
-					"1" "instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
-					"2" "instances/BEE2/over/items/Broken Wall/broken_wall_white_1.vmf"
-					"3" "instances/BEE2/over/items/Broken Wall/broken_wall_black_1.vmf"
+					"1"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
+					"2"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf" //I am currently missing these variants
+					"3"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
 					}
 				}
 			}
@@ -51,12 +51,12 @@
 	}
 "Item"
 	{
-	"ID" "ITEM_FOLIAGE"
+	"ID" "ITEM_FOLIAGE_FLOOR"
 	"Version"
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"foliage"
+			"BEE2_CLEAN"	"foliage_floor"
 			}
 		}
 	}
@@ -69,5 +69,26 @@
 			{
 			"BEE2_CLEAN"	"broken_ceiling"
 			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_GRATING_FLOOR"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"grating_floor"
+			}
+		}
+	}
+"PackList"
+	{
+	"ID" "QOL_MULTI_SCAFFOLD"
+	"Config"
+		{
+		"" "models/props_bts/scaffolding_system_bars_128.mdl"
+		"" "models/props_bts/scaffolding_system_bars_256.mdl"
+		"" "models/props_bts/scaffolding_system_bars_384.mdl"
 		}
 	}

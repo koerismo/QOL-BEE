@@ -1,0 +1,127 @@
+"Item"
+		{
+		"ItemClass"		"ItemButtonFloor"
+		"Type"			"Grating Floor"
+		"Editor"
+			{
+			"SubTypeProperty"		"CubeType"
+			"SubType"
+				{
+				"Name"		"128"
+				"Model"
+					{
+					"ModelName"		"art_therapy/grating_floor_128.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"128"
+					"Image"			"palette/BEE2/grating_floor.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"SubType"
+				{
+				"Name"		"256"
+				"Model"
+					{
+					"ModelName"		"art_therapy/grating_floor_256.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"256"
+					"Image"			"palette/BEE2/grating_floor.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"SubType"
+				{
+				"Name"		"384"
+				"Model"
+					{
+					"ModelName"		"art_therapy/grating_floor_384.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"384"
+					"Image"			"palette/BEE2/grating_floor.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"SubType"
+				{
+				"Name"		"512"
+				"Model"
+					{
+					"ModelName"		"art_therapy/grating_floor_512.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"512"
+					"Image"			"palette/BEE2/grating_floor.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"MovementHandle"		"HANDLE_4_DIRECTIONS"
+			"DesiredFacing"		"DESIRES_UP"
+			"InvalidSurface"		"CEILING WALL"
+			}
+		"Properties"
+			{
+			"CubeType"
+				{
+					"DefaultValue" "0"
+					"Index" "1"
+				}
+			}
+		"Exporting"
+			{
+			"Instances"
+				{
+				"0"
+					{
+					"Name"				"instances/BEE2/clean/items/grating_floor/static_1.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				"1"
+					{
+					"Name"				"instances/BEE2/clean/items/grating_floor/static_2.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				"2"
+					{
+					"Name"				"instances/BEE2/clean/items/grating_floor/static_3.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				"4"
+					{
+					"Name"				"instances/BEE2/clean/items/grating_floor/static_3.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				}
+			"Offset"	"64 64 128"
+			}
+		}

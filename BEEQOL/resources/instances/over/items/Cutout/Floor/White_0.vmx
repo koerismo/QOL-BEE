@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -111,9 +111,9 @@ world
 		{
 			"id" "2"
 			"plane" "(-64.2166 64 -75) (-64.2166 -64 -75) (63.7834 -64 -75)"
-			"material" "NATURE/DIRTFLOOR004B"
-			"uaxis" "[1 0 0 256.866] 0.25"
-			"vaxis" "[0 -1 0 -768] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0.865997] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -122,7 +122,7 @@ world
 		{
 			"id" "3"
 			"plane" "(63.7834 64 -75) (63.7834 -64 -75) (63.7834 -64 -72)"
-			"material" "NATURE/DIRTFLOOR004B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -8] 0.25"
 			"rotation" "0"
@@ -133,7 +133,7 @@ world
 		{
 			"id" "4"
 			"plane" "(-64.2166 -64 -75) (-64.2166 64 -75) (-64.2166 64 -72)"
-			"material" "NATURE/DIRTFLOOR004B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -8] 0.25"
 			"rotation" "0"
@@ -144,7 +144,7 @@ world
 		{
 			"id" "5"
 			"plane" "(63.7834 -64 -75) (-64.2166 -64 -75) (-64.2166 -64 -72)"
-			"material" "NATURE/DIRTFLOOR004B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0.866333] 0.25"
 			"vaxis" "[0 0 -1 -8] 0.25"
 			"rotation" "0"
@@ -155,7 +155,7 @@ world
 		{
 			"id" "6"
 			"plane" "(-64.2166 64 -75) (63.7834 64 -75) (63.7834 64 -72)"
-			"material" "NATURE/DIRTFLOOR004B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0.866333] 0.25"
 			"vaxis" "[0 0 -1 -8] 0.25"
 			"rotation" "0"
