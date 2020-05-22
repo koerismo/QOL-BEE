@@ -9,9 +9,22 @@
 - Foliage (n/a)
 - Suspended grating floors (art therapy)
 
-## Planned
+## Planned for 0.4.5
+- Additional foliage (n/a)
+- Water and sparks particles
+- Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
+
+## Planned for 0.4.6
+- Old aperture variant broken surfaces (skybox)
+- Broken panels (overgrown)
+- Decal item (overgrown) (undecided)
+
+## Planned (unknown version)
+- Grating walls and ceilings (clean, art therapy, overgrown)
 - Gel Pipes (old aperture, overgrown, clean)
 - Framework (overgrown, art therapy)
 - Debris (overgrown, old aperture)
-- Additional foliage (n/a)
-- Grating walls and ceilings (clean,art therapy)
+
+## Planned (post-tiling system)
+- 64x64 panels (overgrown, clean)
+- Improved old ap skybox broken surfaces
