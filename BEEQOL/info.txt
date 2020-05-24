@@ -5,7 +5,7 @@
 
 "Item"
 	{
-	"ID" "ITEM_CUTOUT_GRASS"
+	"ID" "QOL_CUTOUT_GRASS"
 	"Version"
 		{
 		"Styles"
@@ -29,29 +29,33 @@
 	}
 "Item"
 	{
-	"ID" "ITEM_BROKEN_WALL"
+	"ID" "QOL_BROKEN_SURF_1X1"
 	"Version"
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"broken_wall"
-			"BEE2_OVERGROWN"
-				{
-					"Folder" "broken_wall"
-					"Instances"
-					{
-					"0"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf"
-					"1"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
-					"2"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf" //I am currently missing these variants
-					"3"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
-					}
-				}
+			"BEE2_CLEAN"	"broken_surf_1x1"
 			}
 		}
 	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_BROKEN_WALL_1X1_0"
+	"file"  "broken_wall_1x1/0.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_BROKEN_WALL_1X1_1"
+	"file"  "broken_wall_1x1/1.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_BROKEN_WALL_1X1_2"
+	"file"  "broken_wall_1x1/2.vmf"
+	}
 "Item"
 	{
-	"ID" "ITEM_FOLIAGE_FLOOR"
+	"ID" "QOL_FOLIAGE_FLOOR"
 	"Version"
 		{
 		"Styles"
@@ -62,7 +66,7 @@
 	}
 "Item"
 	{
-	"ID" "ITEM_BROKEN_CEILING"
+	"ID" "QOL_BROKEN_CEILING"
 	"Version"
 		{
 		"Styles"

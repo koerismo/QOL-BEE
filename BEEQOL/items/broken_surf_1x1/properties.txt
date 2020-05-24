@@ -4,7 +4,7 @@
 	"Authors"		"Baguettery"
 	"Description"	
 		{
-		"" "A 1x2 Overgrown Wall."
+		"" "A broken 1x1 surface that can be placed on ceilings and walls."
 		}
 	"infoURL"		""
 	"Ent_count"     "10"

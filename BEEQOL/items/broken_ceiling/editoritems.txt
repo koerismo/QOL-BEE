@@ -1,6 +1,6 @@
 "Item"
 {
-	"Type"		"ITEM_BROKEN_CEIL"
+	"Type"		"Broken Ceiling"
 	"ItemClass"	"ItemButtonFloor"
 	"Editor"
 	{
@@ -27,6 +27,7 @@
 		"MovementHandle"	"HANDLE_4_DIRECTIONS"
 		"DesiredFacing"		"DESIRES_DOWN"
 		"InvalidSurface"	"FLOOR WALL"
+		
 	}
 	"Properties"
 	{
@@ -37,14 +38,14 @@
 		{
 			"0"
 			{
-				"Name"				"instances/BEE2/over/items/Broken Wall/broken_ceiling_2x2.vmf"
+				"Name"				"instances/BEE2/over/items/Broken Ceiling/broken_ceiling_2x2.vmf"
 				"EntityCount"		"13"
 				"BrushCount"		"7"
 				"BrushSideCount"	"56"
 			}
 			"1"
 			{
-				"Name"				"instances/BEE2/over/items/Broken Wall/broken_ceiling_2x2.vmf"
+				"Name"				"instances/BEE2/over/items/Broken Ceiling/broken_ceiling_2x2.vmf"
 				"EntityCount"		"13"
 				"BrushCount"		"7"
 				"BrushSideCount"	"56"

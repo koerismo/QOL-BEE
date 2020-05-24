@@ -4,10 +4,11 @@
 	"Authors"		"Baguettery"
 	"Description"	
 		{
-		"" "Overgrown Cutout Tile Decoration"
+		"" "Cutout Tile Decoration"
 		}
 	"Ent_count"     "Moving: 0\nStatic: 2"
 	"infoURL"		"No"
+	"Icon_all"	"clean/cutout_floor_0_64.png"
 	"Icon"
 		{
 			"0"	"clean/cutout_floor_2_64.png"
