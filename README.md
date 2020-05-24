@@ -13,6 +13,7 @@
 - Additional foliage (n/a)
 - Water and sparks particles
 - Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
+- Debris (overgrown, old aperture)
 
 ## Planned for 0.4.6
 - Old aperture variant broken surfaces (skybox)
@@ -22,8 +23,7 @@
 ## Planned (unknown version)
 - Grating walls and ceilings (clean, art therapy, overgrown)
 - Gel Pipes (old aperture, overgrown, clean)
-- Framework (overgrown, art therapy)
-- Debris (overgrown, old aperture)
+- Framework (overgrown, art therapy
 
 ## Planned (post-tiling system)
 - 64x64 panels (overgrown, clean)
