@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "20"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -92,83 +92,6 @@ world
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "129 242 0"
-			"groupid" "1188"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "1207"
-		side
-		{
-			"id" "774"
-			"plane" "(32 -32 -128) (-160 -32 -128) (-160 32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 -1 0 384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "773"
-			"plane" "(-160 -32 -160) (32 -32 -160) (32 32 -160)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 -1 0 384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "772"
-			"plane" "(32 -32 -160) (-160 -32 -160) (-160 -32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "771"
-			"plane" "(-160 32 -160) (32 32 -160) (32 32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "770"
-			"plane" "(-160 -32 -160) (-160 32 -160) (-160 32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[0 1 0 128] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "769"
-			"plane" "(32 32 -160) (32 -32 -160) (32 -32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[0 1 0 128] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -317,7 +240,7 @@ entity
 	"model" "models/anim_wp/framework/squarebeam_off_2x2.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "$is_over"
 	"solid" "6"
 	"origin" "-128 -3.8147e-006 248"
 	editor
@@ -441,7 +364,7 @@ entity
 	"model" "models/anim_wp/framework/squarebeam_off_2x2.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "$is_over"
 	"solid" "6"
 	"origin" "0 0 248"
 	editor
@@ -473,9 +396,9 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"screenspacefade" "0"
-	"skin" "0"
+	"skin" "$is_over"
 	"solid" "6"
-	"origin" "-64 -3.8147e-006 64"
+	"origin" "-64 -3.8147e-006 60"
 	editor
 	{
 		"color" "129 242 0"

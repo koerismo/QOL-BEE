@@ -35,23 +35,21 @@
 		"Styles"
 			{
 			"BEE2_CLEAN"	"broken_surf_1x1"
+			"BEE2_OVERGROWN"
+				{
+					"Folder" "broken_surf_1x1"
+					"Instances"
+					{
+					"0" "instances/BEE2/over/items/Cutout/Floor/White_2.vmf"
+					"1" "instances/BEE2/over/items/Cutout/Floor/Black_2.vmf"
+					"2" "instances/BEE2/over/items/Cutout/Floor/White_1.vmf"
+					"3" "instances/BEE2/over/items/Cutout/Floor/Black_1.vmf"
+					"4" "instances/BEE2/over/items/Cutout/Floor/White_0.vmf"
+					"5" "instances/BEE2/over/items/Cutout/Floor/Black_0.vmf"
+					}
+				}
 			}
 		}
-	}
-"BrushTemplate"
-	{
-	"ID"    "TEMP_BROKEN_WALL_1X1_0"
-	"file"  "broken_wall_1x1/0.vmf"
-	}
-"BrushTemplate"
-	{
-	"ID"    "TEMP_BROKEN_WALL_1X1_1"
-	"file"  "broken_wall_1x1/1.vmf"
-	}
-"BrushTemplate"
-	{
-	"ID"    "TEMP_BROKEN_WALL_1X1_2"
-	"file"  "broken_wall_1x1/2.vmf"
 	}
 "Item"
 	{
@@ -83,6 +81,17 @@
 		"Styles"
 			{
 			"BEE2_CLEAN"	"grating_floor"
+			"BEE2_OVERGROWN"
+			{
+					"Base" "BEE2_CLEAN"
+					"Append"
+						{
+						"Replacements"
+							{
+							"%skin%"    "1"
+							}
+						}
+					}
 			}
 		}
 	}
