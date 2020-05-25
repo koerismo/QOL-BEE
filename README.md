@@ -15,6 +15,10 @@
 - Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
 - Debris (overgrown, old aperture)
 
+#### Bugfixes:
+- [x] added overgrown grating floors
+- [x] fixed z-fighting with grating floors
+- [ ] redid bad foliage editor models and icons
 ## Planned for 0.4.6
 - Old aperture variant broken surfaces (skybox) **\[under review\]**
 - Broken panels (overgrown)
