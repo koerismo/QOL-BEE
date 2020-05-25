@@ -16,14 +16,14 @@
 - Debris (overgrown, old aperture)
 
 ## Planned for 0.4.6
-- Old aperture variant broken surfaces (skybox)
+- Old aperture variant broken surfaces (skybox) **\[under review\]**
 - Broken panels (overgrown)
-- Decal item (overgrown) (undecided)
+- Decal item (overgrown) (undecided) **\[under review\]**
 
 ## Planned (unknown version)
-- Grating walls and ceilings (clean, art therapy, overgrown)
+- Grating walls and ceilings (clean, art therapy, overgrown) **\[under review\]**
 - Gel Pipes (old aperture, overgrown, clean)
-- Framework (overgrown, art therapy
+- Framework (overgrown, art therapy)
 
 ## Planned (post-tiling system)
 - 64x64 panels (overgrown, clean)
