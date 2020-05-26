@@ -1,4 +1,7 @@
 # QOL-BEE
+[![HitCount](http://hits.dwyl.com/koerismo/QOL-BEE.svg)](http://hits.dwyl.com/koerismo/QOL-BEE)
+![GitHub issues](https://img.shields.io/github/issues/koerismo/QOL-BEE?color=333&style=flat-square)
+ 
  QOL Instances ported to PeTI
 
 ## Features
