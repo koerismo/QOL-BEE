@@ -1,20 +1,20 @@
 "Item"
 		{
 		"ItemClass"		"ItemButtonFloor"
-		"Type"			"Wall Foliage"
+		"Type"			"Ceiling Foliage"
 		"Editor"
 			{
 			"SubType"
 				{
-				"Name"		"Moss"
+				"Name"		"Vines"
 				"Model"
 					{
-					"ModelName"		"moss2_editor.mdl"
+					"ModelName"		"vine_cluster_hanging01_editor.mdl"
 					}
 				"Palette"
 					{
 					"Tooltip"		"BUSH"
-					"Image"			"palette/BEE2/moss2_editor.png"
+					"Image"			"palette/BEE2/vine_cluster_hanging01_editor.png"
 					}
 				"Sounds"
 					{
@@ -23,8 +23,8 @@
 					}
 				}
 			"MovementHandle"		"HANDLE_NONE"
-			"DesiredFacing"		"DESIRES_HORIZONTAL"
-			"InvalidSurface"		"CEILING FLOOR"
+			"DesiredFacing"		"DESIRES_DOWN"
+			"InvalidSurface"		"WALL FLOOR"
 			}
 		"Properties"
 			{
@@ -40,28 +40,21 @@
 				{
 				"0"
 					{
-					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_wall/moss_0.vmf"
+					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_ceil/vines_0.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 					}
 				"1"
 					{
-					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_wall/moss_1.vmf"
+					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_ceil/vines_1.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 					}
 				"2"
 					{
-					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_wall/moss_2.vmf"
-					"EntityCount"		"1"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-					}
-				"3"
-					{
-					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_wall/moss_3.vmf"
+					"Name"				"instances/BEE2/clean/items/qol_foliage/foliage_ceil/vines_2.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
