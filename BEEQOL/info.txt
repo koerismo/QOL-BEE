@@ -86,12 +86,23 @@
 	}
 "Item"
 	{
-	"ID" "QOL_BROKEN_CEILING"
+	"ID" "QOL_BROKEN_CEILING_2X2"
 	"Version"
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"broken_ceiling"
+			"BEE2_CLEAN"	"broken_ceiling_2x2"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_BROKEN_CEILING_1X1"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_ceiling_1x1"
 			}
 		}
 	}
@@ -113,7 +124,17 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"grating_floor"
+			"BEE2_CLEAN"
+				{
+				"Folder" "grating_floor"
+				"Append"
+					{
+					"Replacements"
+						{
+						"%skin%"    "0"
+						}
+					}
+				}
 			"BEE2_OVERGROWN"
 			{
 					"Folder" "grating_floor"
