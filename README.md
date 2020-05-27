@@ -5,10 +5,10 @@
  QOL Instances ported to PeTI
 
 ## Features as of 0.4.5
-- [ ] Additional foliage (n/a)
+- [x] Additional foliage (n/a)
 - [ ] Water and sparks particles
 - [ ] Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
-- [ ] Debris (overgrown, old aperture)
+- [ ] Debris (overgrown)
 
 #### Bugfixes:
 - [x] added overgrown grating floors
