@@ -7,7 +7,7 @@
 			"SubTypeProperty"	"CubeType"
 			"SubType"
 				{
-				"Name"		"1x1 Center"
+				"Name"		"1x1 Moss"
 				"Model"
 					{
 					"ModelName"		"debris0.3ds"
@@ -25,7 +25,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"1x2 Center"
+				"Name"		"1x1 Tiles"
 				"Model"
 					{
 					"ModelName"		"debris1.3ds"
@@ -47,6 +47,24 @@
 				"Model"
 					{
 					"ModelName"		"debris2.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"TREE"
+					"Image"			"palette/BEE2/foliage_tree.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"SubType"
+				{
+				"Name"		"1x2 Side"
+				"Model"
+					{
+					"ModelName"		"debris3.3ds"
 					}
 				"Palette"
 					{
@@ -102,19 +120,26 @@
 					}
 				"1"
 					{
-					"Name"				"instances/BEE2/over/items/Debris/128x256_0"
+					"Name"				"instances/BEE2/over/items/Debris/128x128_1"
 					"EntityCount"		"1"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 					}
 				"2"
 					{
-					"Name"				"instances/BEE2/over/items/Debris/128x128_1"
+					"Name"				"instances/BEE2/over/items/Debris/128x128_2"
 					"EntityCount"		"1"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 					}
 				"3"
+					{
+					"Name"				"instances/BEE2/over/items/Debris/128x256_0"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				"4"
 					{
 					"Name"				"instances/BEE2/over/items/Debris/128x256_1"
 					"EntityCount"		"1"
