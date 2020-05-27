@@ -159,3 +159,8 @@
 		"" "models/props_bts/scaffolding_system_bars_384.mdl"
 		}
 	}
+"BrushTemplate"
+	{
+	"ID"   "QOL_BROKEN_CEIL_1X1_TEMP_0"
+	"File" "broken_ceil_1x1_0_temp.vmf"
+	}
