@@ -14,8 +14,8 @@
 					}
 				"Palette"
 					{
-					"Tooltip"		"BUSH"
-					"Image"			"palette/BEE2/foliage_bush.png"
+					"Tooltip"		"MOSS"
+					"Image"			"palette/BEE2/debris0.png"
 					}
 				"Sounds"
 					{
@@ -32,8 +32,8 @@
 					}
 				"Palette"
 					{
-					"Tooltip"		"FERN"
-					"Image"			"palette/BEE2/foliage_fern.png"
+					"Tooltip"		"TILES"
+					"Image"			"palette/BEE2/debris1.png"
 					}
 				"Sounds"
 					{
@@ -50,8 +50,8 @@
 					}
 				"Palette"
 					{
-					"Tooltip"		"TREE"
-					"Image"			"palette/BEE2/foliage_tree.png"
+					"Tooltip"		"CORNER DEBRIS"
+					"Image"			"palette/BEE2/debris2.png"
 					}
 				"Sounds"
 					{
@@ -68,8 +68,8 @@
 					}
 				"Palette"
 					{
-					"Tooltip"		"TREE"
-					"Image"			"palette/BEE2/foliage_tree.png"
+					"Tooltip"		"1X2 DEBRIS (A)"
+					"Image"			"palette/BEE2/debris3.png"
 					}
 				"Sounds"
 					{
@@ -86,8 +86,8 @@
 					}
 				"Palette"
 					{
-					"Tooltip"		"TREE"
-					"Image"			"palette/BEE2/foliage_tree.png"
+					"Tooltip"		"1X2 DEBRIS (B)"
+					"Image"			"palette/BEE2/debris4.png"
 					}
 				"Sounds"
 					{

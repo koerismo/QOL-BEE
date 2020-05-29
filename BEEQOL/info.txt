@@ -40,12 +40,11 @@
 					"Folder" "broken_surf_1x1"
 					"Instances"
 					{
-					"0" "instances/BEE2/over/items/Cutout/Floor/White_2.vmf"
-					"1" "instances/BEE2/over/items/Cutout/Floor/Black_2.vmf"
-					"2" "instances/BEE2/over/items/Cutout/Floor/White_1.vmf"
-					"3" "instances/BEE2/over/items/Cutout/Floor/Black_1.vmf"
-					"4" "instances/BEE2/over/items/Cutout/Floor/White_0.vmf"
-					"5" "instances/BEE2/over/items/Cutout/Floor/Black_0.vmf"
+					"0" "instances/BEE2/over/items/Broken Wall/wall/1x1_0.vmf"
+					"1"  "instances/BEE2/over/items/Broken Wall/wall/1x1_1.vmf"
+					"2" "instances/BEE2/over/items/Broken Wall/wall/1x1_2.vmf"
+					"3" "instances/BEE2/over/items/Broken Wall/ceil/1x1_0.vmf"
+					"4" "instances/BEE2/over/items/Broken Wall/ceil/1x1_1.vmf"
 					}
 				}
 			}
