@@ -7,8 +7,8 @@
 ## Features as of 0.4.5
 - [x] Additional foliage (n/a)
 - [ ] Water and sparks particles
-- [ ] Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
-- [ ] Debris (overgrown)
+- [ ] Redone 1x1 and 2x2 broken surfaces (overgrown, ~~wheatley~~, art therapy)
+- [x] Debris (overgrown)
 
 #### Bugfixes:
 - [x] added overgrown grating floors
