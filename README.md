@@ -14,3 +14,6 @@
 - [x] added overgrown grating floors
 - [x] fixed z-fighting with grating floors
 - [ ] redid bad foliage editor models and icons
+- [ ] make broken floors and walls use resized framework models
+- [ ] create 1x0.9 (approx) size framework models
+- [ ] pack resized framework models
