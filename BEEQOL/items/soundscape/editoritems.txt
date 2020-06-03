@@ -1,0 +1,47 @@
+"Item"
+		{
+		"ItemClass"		"ItemButtonFloor"
+		"Type"			"Soundscape"
+		"Editor"
+			{
+			"SubType"
+				{
+				"Name"		"Soundscape"
+				"Model"
+					{
+					"ModelName"		"qol_soundscape.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"SOUNDSCAPE"
+					"Image"			"palette/BEE2/qol_soundscape.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"MovementHandle"		"HANDLE_NONE"
+			}
+		"Properties"
+			{
+			}
+		"Exporting"
+			{
+			"Instances"
+				{
+				"0"
+					{
+					"Name"				"instances/BEE2/all/qol_soundscape.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+					}
+				}
+			"OccupiedVoxels"
+				{
+				}
+			"Offset"	"64 64 64"
+			}
+		}

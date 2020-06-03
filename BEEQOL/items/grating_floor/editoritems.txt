@@ -4,6 +4,7 @@
 		"Type"			"Grating Floor"
 		"Editor"
 			{
+			"SubTypeProperty" "CubeType"
 			"SubType"
 				{
 				"Name"		"Suspended Grating Floor (128)"

@@ -1,0 +1,77 @@
+"Item"
+{
+	"Type"		"BTS Ceiling Opening"
+	"ItemClass"	"ItemButtonFloor"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"BTS Ceiling Opening"
+			"Model"
+			{
+				"ModelName"	"broken_ceiling_256x256.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"	"DESTROYED CEILING"
+				"Image"		"palette/BEE2/broken_ceil_64.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"DesiredFacing"		"DESIRES_DOWN"
+		"InvalidSurface"	"FLOOR WALL"
+		
+	}
+	"Properties"
+	{
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/BEE2/clean/items/bts_ceiling.vmf"
+				"EntityCount"		"84"
+				"BrushCount"		"112"
+				"BrushSideCount"	"672"
+			}
+			"1"
+			{
+				"Name"				"instances/BEE2/clean/items/bts_ceiling.vmf"
+				"EntityCount"		"84"
+				"BrushCount"		"112"
+				"BrushSideCount"	"672"
+			}
+		}
+		"Offset"		"64 64 64"
+
+		"OccupiedVoxels"
+		{
+			"Volume"
+			{
+				"Pos1"		"0 0 0"
+				"Pos2"		"8 8 0"
+				"Surface"
+				{
+					"Normal"	"0 0 1"
+				}
+			}
+		}
+		"EmbeddedVoxels"
+		{
+			"Volume"
+			{
+				"Pos1"		"-4 -4 0"
+				"Pos2"		"12 12 -12"
+			}
+		}
+	}
+}

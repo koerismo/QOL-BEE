@@ -118,6 +118,17 @@
 	}
 "Item"
 	{
+	"ID" "QOL_BTS_OPENING"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"bts_opening"
+			}
+		}
+	}
+"Item"
+	{
 	"ID" "QOL_GRATING_FLOOR"
 	"Version"
 		{
@@ -162,4 +173,57 @@
 	{
 	"ID"   "QOL_BROKEN_CEIL_1X1_TEMP_0"
 	"File" "broken_ceil_1x1_0_temp.vmf"
+	}
+"Item"
+	{
+	"ID" "QOL_SOUNDSCAPE"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"
+				{
+				"Folder" "soundscape"
+				"Append"
+					{
+						"Replacements"
+						{
+							"%item_style%"    "clean"
+						}
+					}
+				}
+			"BEE2_OVERGROWN"
+				{
+				"Folder" "soundscape"
+				"Append"
+					{
+						"Replacements"
+						{
+							"%item_style%"    "overgrown"
+						}
+					}
+				}
+			"BEE2_1950s"
+				{
+				"Folder" "soundscape"
+				"Append"
+					{
+						"Replacements"
+							{
+							"%item_style%"    "oldap"
+							}
+					}
+				}
+			}
+		}
+	}
+"PackList"
+	{
+	"ID"       "QOL_SKYBOX_2D"
+	"AddIfMat" "tools/toolsskybox2d"
+	"Config"
+		{
+		"File" "materials/tools/toolsskybox2d.vmt"
+		"File" "materials/tools/toolsskybox2d.vtf"
+		}
 	}
