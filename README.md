@@ -9,6 +9,12 @@
 - [ ] Water and sparks particles
 - [ ] Redone 1x1 and 2x2 broken surfaces (overgrown, ~~wheatley~~, art therapy)
 - [x] Debris (overgrown)
+- [ ] Bts openings
+- [ ] | bts ceiling large
+- [ ] | bts ceiling med
+- [ ] | bts wall large
+- [ ] | bts wall med
+- [ ] | bts wall small
 
 #### Bugfixes:
 - [x] added overgrown grating floors
