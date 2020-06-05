@@ -14,7 +14,7 @@
 			"Palette"
 			{
 				"Tooltip"	"DESTROYED CEILING"
-				"Image"		"palette/BEE2/broken_ceil_64.png"
+				"Image"		"palette/BEE2/bts_opening.png"
 			}
 			"Sounds"
 			{

@@ -10,6 +10,6 @@
 	"Ent_count"     "10"
 	"Icon"
 		{
-			"0"	"clean/broken_ceil_64.png"
+			"0"	"clean/bts_opening.png"
 		}
 	}
