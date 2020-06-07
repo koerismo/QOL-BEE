@@ -217,13 +217,3 @@
 			}
 		}
 	}
-"PackList"
-	{
-	"ID"       "QOL_SKYBOX_2D"
-	"AddIfMat" "tools/toolsskybox2d"
-	"Config"
-		{
-		"File" "materials/tools/toolsskybox2d.vmt"
-		"File" "materials/tools/toolsskybox2d.vtf"
-		}
-	}

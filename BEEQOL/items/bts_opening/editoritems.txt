@@ -9,11 +9,11 @@
 			"Name"		"BTS Ceiling Opening"
 			"Model"
 			{
-				"ModelName"	"broken_ceiling_256x256.3ds"
+				"ModelName"	"bts_opening.3ds"
 			}
 			"Palette"
 			{
-				"Tooltip"	"DESTROYED CEILING"
+				"Tooltip"	"BTS OPENING"
 				"Image"		"palette/BEE2/bts_opening.png"
 			}
 			"Sounds"
