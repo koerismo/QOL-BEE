@@ -17,7 +17,7 @@
 - [ ] | 2x2 clean
 - [x] Debris (overgrown) **[Mostly Finished]**
 - [ ] Bts openings
-- [ ] | bts ceiling large
+- [x] | bts ceiling large
 - [ ] | bts ceiling med
 - [ ] | bts wall large
 - [ ] | bts wall med
