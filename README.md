@@ -7,14 +7,22 @@
 ## Features as of 0.4.5
 - [x] Additional foliage (n/a)
 - [ ] Water and sparks particles
+- [x] 1x1 broken ceiling
+- [x] | Overgrown variant
+- [ ] | Clean variant
 - [ ] Redone 1x1 and 2x2 broken surfaces (overgrown, ~~wheatley~~, art therapy)
-- [x] Debris (overgrown)
+- [x] | 1x1 overgrown
+- [ ] | 1x1 clean
+- [ ] | 2x2 overgrown
+- [ ] | 2x2 clean
+- [x] Debris (overgrown) **[Mostly Finished]**
 - [ ] Bts openings
 - [ ] | bts ceiling large
 - [ ] | bts ceiling med
 - [ ] | bts wall large
 - [ ] | bts wall med
 - [ ] | bts wall small
+- [x] Soundscape **[WIP]**
 
 #### Bugfixes:
 - [x] added overgrown grating floors
