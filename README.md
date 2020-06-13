@@ -4,6 +4,14 @@
  
  QOL Instances ported to PeTI
 
+***
+#### Index
+- (Features)[https://github.com/koerismo/QOL-BEE#features]
+- (Planned)[https://github.com/koerismo/QOL-BEE#planned-for-046]
+- (Known Issues)[https://github.com/koerismo/QOL-BEE#known-issues]
+***
+
+
 ## Features
 *as of release 0.4.5*
 - Floor cutout tiles (overgrown, art therapy) **[80% Finished]**
@@ -32,3 +40,12 @@
 ## Planned (post-tiling system)
 - 64x64 panels (overgrown, clean)
 - Improved old ap skybox broken surfaces
+
+***
+
+# Known Issues
+- clean cutout tiles always use variant 0 black
+- 1x1 broken surfaces cause leaks when placed against walls and in corners
+- 1x1 broken surfaces lack icons and models
+- 1x1 broken surfaces have an unnecessary gizmo
+- there are no combined icons
