@@ -5,6 +5,7 @@
 	"Description"	
 		{
 		"" "A broken 1x1 surface that can be placed on ceilings and walls."
+		"" "**WARNING: THIS ITEM IS KNOWN TO BE BROKEN.**"
 		}
 	"infoURL"		""
 	"Ent_count"     "10"
