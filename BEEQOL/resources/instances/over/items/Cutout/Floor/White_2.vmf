@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "29"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3167,12 +3167,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "32 -32 -64"
+	"origin" "30 -30 -64"
 	editor
 	{
 		"color" "255 255 0"
@@ -3201,12 +3201,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-32 -32 -64"
+	"origin" "-30 -30 -64"
 	editor
 	{
 		"color" "255 255 0"
@@ -3235,12 +3235,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-32 32 -64"
+	"origin" "-30 30 -64"
 	editor
 	{
 		"color" "255 255 0"
@@ -3269,12 +3269,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "32 32 -64"
+	"origin" "30 30 -64"
 	editor
 	{
 		"color" "255 255 0"

@@ -1,13 +1,13 @@
 "Item"
 	{
-	"Type"	"ITEM_CUTOUT_GRASS"
+	"Type"	"Manual Cutout Tiles"
 	"ItemClass"	"ItemButtonFloor"
 	"Editor"
 		{
 		"SubTypeProperty"	"ButtonType"
 		"SubType"
 			{
-			"Name"			"Overgrown Cutout (Barely Damaged)"
+			"Name"			"Cutout (Barely Damaged)"
 			"Model"
 				{
 				"ModelName"	"floor_black_cutout_2.3ds"
@@ -25,7 +25,7 @@
 			}
 		"SubType"
 			{
-			"Name"			"Overgrown Cutout (Somewhat Damaged)"
+			"Name"			"Cutout (Somewhat Damaged)"
 			"Model"
 				{
 				"ModelName"	"floor_black_cutout_1.3ds"
@@ -45,7 +45,7 @@
 			}
 		"SubType"
 			{
-			"Name"			"Overgrown Cutout (Very Damaged)"
+			"Name"			"Cutout (Very Damaged)"
 			"Model"
 				{
 				"ModelName"	"floor_black_cutout_0.3ds"
@@ -83,21 +83,21 @@
 			{
 			"0"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/White_2.vmf"
+				"Name"				"instances/BEE2/over/items/Cutout/Floor/White_2.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
 				}
 			"1"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_2.vmf"
+				"Name"				"instances/BEE2/over/items/Cutout/Floor/Black_2.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
 				}
 			"2"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/White_1.vmf"
+				"Name"				"instances/BEE2/over/items/Cutout/Floor/White_1.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
@@ -111,7 +111,7 @@
 				}
 			"4"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/White_0.vmf"
+				"Name"				"instances/BEE2/over/items/Cutout/Floor/White_0.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"

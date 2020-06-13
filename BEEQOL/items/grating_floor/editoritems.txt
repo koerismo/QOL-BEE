@@ -4,7 +4,7 @@
 		"Type"			"Grating Floor"
 		"Editor"
 			{
-			"SubTypeProperty"		"CubeType"
+			"SubTypeProperty" "CubeType"
 			"SubType"
 				{
 				"Name"		"Suspended Grating Floor (128)"
@@ -114,7 +114,7 @@
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 					}
-				"4"
+				"3"
 					{
 					"Name"				"instances/BEE2/clean/items/grating_floor/static_4.vmf"
 					"EntityCount"		"1"

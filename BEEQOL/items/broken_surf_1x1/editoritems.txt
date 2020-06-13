@@ -1,0 +1,101 @@
+"Item"
+{
+	"Type"		"Destroyed Wall 1x1"
+	"ItemClass"	"ItemButtonFloor"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Destroyed Wall (1x1)"
+			"Model"
+			{
+				"ModelName"	"broken_wall_1x1.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"	"DESTROYED WALL 1X1"
+				"Image"		"palette/BEE2/broken_wall_1x1_64.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle"	"NONE"
+		"InvalidSurface"    "FLOOR"
+		
+	}
+	"Properties"
+	{
+		"ButtonType"
+		{
+			"DefaultValue" "0"
+			"Index" "1"
+		}
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Wall/wall/1x1_0.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"1"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Wall/wall/1x1_1.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"2"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Wall/wall/1x1_2.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"3"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Wall/ceil/1x1_0.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"4"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Wall/ceil/1x1_1.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+		}
+		"Offset"		"64 64 64"
+
+		"OccupiedVoxels"
+		{
+			"Voxel"
+			{
+				"CollideType"		"COLLIDE_SOLID"
+				"CollideAgainst"	"COLLIDE_SOLID COLLIDE_PHYSICS"
+				"Pos"				"0 0 0"
+			}
+		}
+		"EmbeddedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+			}
+		}
+		"ConnectionPoints"
+		{
+		}
+	}
+}

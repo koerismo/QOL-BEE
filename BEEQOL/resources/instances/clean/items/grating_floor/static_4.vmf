@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "3"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "128"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32,7 +32,7 @@ world
 		"id" "22"
 		side
 		{
-			"id" "30"
+			"id" "54"
 			"plane" "(64 -64 384) (-192 -64 384) (-192 64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -43,7 +43,7 @@ world
 		}
 		side
 		{
-			"id" "29"
+			"id" "53"
 			"plane" "(-192 -64 376) (64 -64 376) (64 64 376)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -54,7 +54,7 @@ world
 		}
 		side
 		{
-			"id" "28"
+			"id" "52"
 			"plane" "(64 -64 376) (-192 -64 376) (-192 -64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -65,7 +65,7 @@ world
 		}
 		side
 		{
-			"id" "27"
+			"id" "51"
 			"plane" "(-192 64 376) (64 64 376) (64 64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -76,7 +76,7 @@ world
 		}
 		side
 		{
-			"id" "26"
+			"id" "50"
 			"plane" "(-192 -64 376) (-192 64 376) (-192 64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -87,88 +87,11 @@ world
 		}
 		side
 		{
-			"id" "25"
+			"id" "49"
 			"plane" "(64 64 376) (64 -64 376) (64 -64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "225 182 0"
-			"groupid" "21"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "23"
-		side
-		{
-			"id" "36"
-			"plane" "(32 -32 -128) (-160 -32 -128) (-160 32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 -1 0 384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35"
-			"plane" "(-160 -32 -160) (32 -32 -160) (32 32 -160)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 -1 0 384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "34"
-			"plane" "(32 -32 -160) (-160 -32 -160) (-160 -32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "33"
-			"plane" "(-160 32 -160) (32 32 -160) (32 32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "32"
-			"plane" "(-160 -32 -160) (-160 32 -160) (-160 32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[0 1 0 128] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "31"
-			"plane" "(32 32 -160) (32 -32 -160) (32 -32 -128)"
-			"material" "CONCRETE/UNDERGROUND_CONCRETE_TILE001"
-			"uaxis" "[0 1 0 128] 0.25"
-			"vaxis" "[0 0 -1 -384] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -203,7 +126,7 @@ entity
 		"id" "25"
 		side
 		{
-			"id" "42"
+			"id" "66"
 			"plane" "(64 -64 384) (-192 -64 384) (-192 64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -214,7 +137,7 @@ entity
 		}
 		side
 		{
-			"id" "41"
+			"id" "65"
 			"plane" "(-192 -64 376) (64 -64 376) (64 64 376)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -225,7 +148,7 @@ entity
 		}
 		side
 		{
-			"id" "40"
+			"id" "64"
 			"plane" "(64 -64 376) (-192 -64 376) (-192 -64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -236,7 +159,7 @@ entity
 		}
 		side
 		{
-			"id" "39"
+			"id" "63"
 			"plane" "(-192 64 376) (64 64 376) (64 64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -247,7 +170,7 @@ entity
 		}
 		side
 		{
-			"id" "38"
+			"id" "62"
 			"plane" "(-192 -64 376) (-192 64 376) (-192 64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -258,7 +181,7 @@ entity
 		}
 		side
 		{
-			"id" "37"
+			"id" "61"
 			"plane" "(64 64 376) (64 -64 376) (64 -64 384)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -292,7 +215,7 @@ entity
 		"id" "28"
 		side
 		{
-			"id" "48"
+			"id" "72"
 			"plane" "(62 -62 382) (-190 -62 382) (-190 62 382)"
 			"material" "METAL/UNDERGROUND_METALGRATE001B"
 			"uaxis" "[1 0 0 256] 0.25"
@@ -303,7 +226,7 @@ entity
 		}
 		side
 		{
-			"id" "47"
+			"id" "71"
 			"plane" "(-190 -62 380) (62 -62 380) (62 62 380)"
 			"material" "METAL/UNDERGROUND_METALGRATE001B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -314,7 +237,7 @@ entity
 		}
 		side
 		{
-			"id" "46"
+			"id" "70"
 			"plane" "(62 -62 380) (-190 -62 380) (-190 -62 382)"
 			"material" "METAL/UNDERGROUND_METALGRATE001B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -325,7 +248,7 @@ entity
 		}
 		side
 		{
-			"id" "45"
+			"id" "69"
 			"plane" "(-190 62 380) (62 62 380) (62 62 382)"
 			"material" "METAL/UNDERGROUND_METALGRATE001B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -336,7 +259,7 @@ entity
 		}
 		side
 		{
-			"id" "44"
+			"id" "68"
 			"plane" "(-190 -62 380) (-190 62 380) (-190 62 382)"
 			"material" "METAL/UNDERGROUND_METALGRATE001B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -347,7 +270,7 @@ entity
 		}
 		side
 		{
-			"id" "43"
+			"id" "67"
 			"plane" "(62 62 380) (62 -62 380) (62 -62 382)"
 			"material" "METAL/UNDERGROUND_METALGRATE001B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -395,7 +318,7 @@ entity
 	"model" "models/anim_wp/framework/squarebeam_off_2x2.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "$is_over"
 	"solid" "6"
 	"origin" "0 0 376"
 	editor
@@ -430,7 +353,7 @@ entity
 	"model" "models/anim_wp/framework/squarebeam_off_2x2.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "0"
+	"skin" "$is_over"
 	"solid" "6"
 	"origin" "-128 -3.8147e-006 376"
 	editor
@@ -462,9 +385,9 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"screenspacefade" "0"
-	"skin" "0"
+	"skin" "$is_over"
 	"solid" "6"
-	"origin" "-64 -3.8147e-006 128"
+	"origin" "-64 -3.8147e-006 124"
 	editor
 	{
 		"color" "225 182 0"

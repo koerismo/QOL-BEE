@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "34"
+	"mapversion" "37"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "37"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2711,7 +2711,7 @@ entity
 {
 	"id" "1520"
 	"classname" "prop_static"
-	"angles" "1.5 0 2.5"
+	"angles" "1.57574 0 2.5"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -2727,12 +2727,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
-	"origin" "32.1046 -32.1745 -64.0052"
+	"origin" "30 -30 -64.0052"
 	editor
 	{
 		"color" "145 170 0"
@@ -2762,12 +2762,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
-	"origin" "-32 -32.1396 -64.0024"
+	"origin" "-31.022 -29.967 -64.0024"
 	editor
 	{
 		"color" "203 144 0"
@@ -2781,7 +2781,7 @@ entity
 {
 	"id" "1536"
 	"classname" "prop_static"
-	"angles" "-3.5 0 0"
+	"angles" "-3.67633 0 0"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -2797,12 +2797,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
-	"origin" "-31.9403 32 -62.1822"
+	"origin" "-30.9652 30.694 -62.1822"
 	editor
 	{
 		"color" "209 138 0"
@@ -2816,7 +2816,7 @@ entity
 {
 	"id" "159"
 	"classname" "prop_static"
-	"angles" "0 1.5 0"
+	"angles" "0 1.49032 0"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -2832,12 +2832,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
-	"origin" "32 32 -65"
+	"origin" "29.9004 30.694 -65"
 	editor
 	{
 		"color" "109 106 0"

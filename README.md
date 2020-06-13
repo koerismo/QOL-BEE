@@ -5,27 +5,24 @@
  QOL Instances ported to PeTI
 
 ## Features
-*as of release 0.4.4*
-- Floor cutout tiles (overgrown, art therapy)
-- Broken walls (overgrown, art therapy)
+*as of release 0.4.5*
+- Floor cutout tiles (overgrown, art therapy) **[80% Finished]**
+- Broken walls (overgrown, art therapy) **[25% Finished]**
 - Broken ceiling (overgrown)
 - Foliage (n/a)
-- Suspended grating floors (art therapy)
+- Suspended grating floors (art therapy,overgrown)
+- 1x1 broken ceiling (overgrown)
+- Redone 1x1 and 2x2 broken surfaces (overgrown) **[16% Finished]**
+- Debris (overgrown) **[90% Finished]**
+- Bts ceiling (large)
+- Soundscape (clean,overgrown,old-ap)
 
-## Planned for 0.4.5
-- Additional foliage (n/a)
-- Water and sparks particles
-- Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
-- Debris (overgrown, old aperture)
-
-#### Bugfixes:
-- [x] added overgrown grating floors
-- [x] fixed z-fighting with grating floors
-- [ ] redid bad foliage editor models and icons
 ## Planned for 0.4.6
 - Old aperture variant broken surfaces (skybox) **\[under review\]**
 - Broken panels (overgrown)
 - Decal item (overgrown) (undecided) **\[under review\]**
+- Water and sparks particles
+- Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
 
 ## Planned (unknown version)
 - Grating walls and ceilings (clean, art therapy, overgrown) **\[under review\]**

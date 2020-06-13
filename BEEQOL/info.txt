@@ -5,23 +5,51 @@
 
 "Item"
 	{
-	"ID" "ITEM_CUTOUT_GRASS"
+	"ID" "QOL_CUTOUT_GRASS"
 	"Version"
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"cutout_grass"
+			"BEE2_CLEAN"	"cutout_clean"
+			"BEE2_OVERGROWN" "cutout_grass"
+			}
+		}
+	}
+
+"BrushTemplate"
+	{
+	"ID"   "QOL_CUTOUT_0_CLEAN"
+	"File" "cutout_0_template.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"   "QOL_CUTOUT_1_CLEAN"
+	"File" "cutout_1_template.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"   "QOL_CUTOUT_2_CLEAN"
+	"File" "cutout_2_template.vmf"
+	}
+
+"Item"
+	{
+	"ID" "QOL_BROKEN_SURF_1X1"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_surf_1x1"
 			"BEE2_OVERGROWN"
 				{
-					"Folder" "cutout_grass"
+					"Folder" "broken_surf_1x1"
 					"Instances"
 					{
-					"0" "instances/BEE2/over/items/Cutout/Floor/White_2.vmf"
-					"1" "instances/BEE2/over/items/Cutout/Floor/Black_2.vmf"
-					"2" "instances/BEE2/over/items/Cutout/Floor/White_1.vmf"
-					"3" "instances/BEE2/over/items/Cutout/Floor/Black_1.vmf"
-					"4" "instances/BEE2/over/items/Cutout/Floor/White_0.vmf"
-					"5" "instances/BEE2/over/items/Cutout/Floor/Black_0.vmf"
+					"0" "instances/BEE2/over/items/Broken Wall/wall/1x1_0.vmf"
+					"1"  "instances/BEE2/over/items/Broken Wall/wall/1x1_1.vmf"
+					"2" "instances/BEE2/over/items/Broken Wall/wall/1x1_2.vmf"
+					"3" "instances/BEE2/over/items/Broken Wall/ceil/1x1_0.vmf"
+					"4" "instances/BEE2/over/items/Broken Wall/ceil/1x1_1.vmf"
 					}
 				}
 			}
@@ -29,29 +57,7 @@
 	}
 "Item"
 	{
-	"ID" "ITEM_BROKEN_WALL"
-	"Version"
-		{
-		"Styles"
-			{
-			"BEE2_CLEAN"	"broken_wall"
-			"BEE2_OVERGROWN"
-				{
-					"Folder" "broken_wall"
-					"Instances"
-					{
-					"0"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf"
-					"1"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
-					"2"	"instances/BEE2/over/items/Broken Wall/broken_wall_white_0.vmf" //I am currently missing these variants
-					"3"	"instances/BEE2/over/items/Broken Wall/broken_wall_black_0.vmf"
-					}
-				}
-			}
-		}
-	}
-"Item"
-	{
-	"ID" "ITEM_FOLIAGE_FLOOR"
+	"ID" "QOL_FOLIAGE_FLOOR"
 	"Version"
 		{
 		"Styles"
@@ -62,12 +68,67 @@
 	}
 "Item"
 	{
-	"ID" "ITEM_BROKEN_CEILING"
+	"ID" "QOL_FOLIAGE_WALL"
 	"Version"
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"broken_ceiling"
+			"BEE2_CLEAN"	"foliage_wall"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_FOLIAGE_CEIL"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"foliage_ceil"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_BROKEN_CEILING_2X2"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_ceiling_2x2"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_BROKEN_CEILING_1X1"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_ceiling_1x1"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_DEBRIS"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"debris"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_BTS_OPENING"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"bts_opening"
 			}
 		}
 	}
@@ -78,7 +139,28 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"grating_floor"
+			"BEE2_CLEAN"
+				{
+				"Folder" "grating_floor"
+				"Append"
+					{
+					"Replacements"
+						{
+						"%skin%"    "0"
+						}
+					}
+				}
+			"BEE2_OVERGROWN"
+			{
+					"Folder" "grating_floor"
+					"Append"
+						{
+						"Replacements"
+							{
+							"%skin%"    "1"
+							}
+						}
+					}
 			}
 		}
 	}
@@ -90,5 +172,53 @@
 		"" "models/props_bts/scaffolding_system_bars_128.mdl"
 		"" "models/props_bts/scaffolding_system_bars_256.mdl"
 		"" "models/props_bts/scaffolding_system_bars_384.mdl"
+		}
+	}
+"BrushTemplate"
+	{
+	"ID"   "QOL_BROKEN_CEIL_1X1_TEMP_0"
+	"File" "broken_ceil_1x1_0_temp.vmf"
+	}
+"Item"
+	{
+	"ID" "QOL_SOUNDSCAPE"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"
+				{
+				"Folder" "soundscape"
+				"Append"
+					{
+						"Replacements"
+						{
+							"%item_style%"    "clean"
+						}
+					}
+				}
+			"BEE2_OVERGROWN"
+				{
+				"Folder" "soundscape"
+				"Append"
+					{
+						"Replacements"
+						{
+							"%item_style%"    "overgrown"
+						}
+					}
+				}
+			"BEE2_1950s"
+				{
+				"Folder" "soundscape"
+				"Append"
+					{
+						"Replacements"
+							{
+							"%item_style%"    "oldap"
+							}
+					}
+				}
+			}
 		}
 	}

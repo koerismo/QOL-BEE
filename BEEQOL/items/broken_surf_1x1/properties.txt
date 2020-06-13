@@ -1,0 +1,16 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Decoration"
+	"Authors"		"Baguettery"
+	"Description"	
+		{
+		"" "A broken 1x1 surface that can be placed on ceilings and walls."
+		"" "**WARNING: THIS ITEM IS KNOWN TO BE BROKEN.**"
+		}
+	"infoURL"		""
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"clean/broken_wall_64.png"
+		}
+	}

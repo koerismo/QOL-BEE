@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "9"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1286,12 +1286,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-32.2166 -32.1752 -60.0219"
+	"origin" "-30.1215 -30.5203 -60.0219"
 	editor
 	{
 		"color" "254 135 0"
@@ -2161,12 +2161,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-32.2166 32.5219 -60.0098"
+	"origin" "-30.1215 30.3465 -60.0098"
 	editor
 	{
 		"color" "156 133 0"
@@ -2180,7 +2180,7 @@ entity
 {
 	"id" "46"
 	"classname" "prop_static"
-	"angles" "3.49346 359.786 -3.50652"
+	"angles" "3.7071 359.786 -3.50652"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -2196,12 +2196,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "32.0276 32.4866 -60.0149"
+	"origin" "30.411 30.3133 -60.0149"
 	editor
 	{
 		"color" "176 245 0"
@@ -2215,7 +2215,7 @@ entity
 {
 	"id" "52"
 	"classname" "prop_static"
-	"angles" "3.99952 0.0218627 2.50143"
+	"angles" "4.2439 0.0218296 2.50143"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -2231,12 +2231,12 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/anim_wp/framework/squarebeam_off.mdl"
+	"model" "models/anim_wp/framework/squarebeam_off_mini_both.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "32.0622 -31.9316 -60.0135"
+	"origin" "30.4436 -30.2911 -60.0135"
 	editor
 	{
 		"color" "202 119 0"

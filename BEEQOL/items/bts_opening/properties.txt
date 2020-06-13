@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Decoration"
+	"Authors"		"Baguettery"
+	"Description"	
+		{
+		"" "A 2x2 section of ceiling that has been torn apart."
+		}
+	"infoURL"		""
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"clean/bts_opening.png"
+		}
+	}

@@ -1,0 +1,153 @@
+"Item"
+	{
+	"Type"	"Manual Cutout Tiles"
+	"ItemClass"	"ItemButtonFloor"
+	"Editor"
+		{
+		"SubTypeProperty"	"ButtonType"
+		"SubType"
+			{
+			"Name"			"Cutout (Barely Damaged)"
+			"Model"
+				{
+				"ModelName"	"floor_black_cutout_2.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUTOUT"
+				"Image"		"palette/BEE2/cutout_floor_2_64.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Cutout (Somewhat Damaged)"
+			"Model"
+				{
+				"ModelName"	"floor_black_cutout_1.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUTOUT"
+				"Image"		"palette/BEE2/cutout_floor_1_64.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				//"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				//"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Cutout (Very Damaged)"
+			"Model"
+				{
+				"ModelName"	"floor_black_cutout_0.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"		"CUTOUT"
+				"Image"		"palette/BEE2/cutout_floor_0_64.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"InvalidSurface"    "CEILING WALL"
+		}
+	"Properties"
+		{
+		"Portalable"
+			{
+			"DefaultValue"	"1"
+			"Index"			"0"
+			}
+		"ButtonType"
+			{
+			"DefaultValue"  "0"
+			"Index"         "0"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/base_clean.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"1"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/base_clean.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"2"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/base_clean.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"3"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/base_clean.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"4"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/base_clean.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			"5"
+				{
+				"Name"				"instances/BEE2/clean/items/Cutout/Floor/base_clean.vmf"
+				"EntityCount"		"7"
+				"BrushCount"		"19"
+				"BrushSideCount"	"114"
+				}
+			}
+		"Offset"		"64 64 64"
+		"OccupiedVoxels"
+			{
+			"Voxel"
+				{
+				"CollideType"		"COLLIDE_NONE"
+				"CollideAgainst"	"COLLIDE_ANTLINES"
+
+				"Pos"		"0 0 0"
+				"Surface"
+					{
+					"Normal"	"0 0 1"
+					}
+				}
+			}
+		"EmbeddedVoxels"
+			{
+			"Voxel"
+				{
+				"Pos"		"0 0 0"
+				}
+			}
+		"ConnectionPoints"
+			{
+			}
+		}
+	}
