@@ -10,23 +10,28 @@
 		{
 		"Styles"
 			{
-			"BEE2_CLEAN"	"cutout_grass"
-			"BEE2_OVERGROWN"
-				{
-					"Folder" "cutout_grass"
-					"Instances"
-					{
-					"0" "instances/BEE2/over/items/Cutout/Floor/White_2.vmf"
-					"1" "instances/BEE2/over/items/Cutout/Floor/Black_2.vmf"
-					"2" "instances/BEE2/over/items/Cutout/Floor/White_1.vmf"
-					"3" "instances/BEE2/over/items/Cutout/Floor/Black_1.vmf"
-					"4" "instances/BEE2/over/items/Cutout/Floor/White_0.vmf"
-					"5" "instances/BEE2/over/items/Cutout/Floor/Black_0.vmf"
-					}
-				}
+			"BEE2_CLEAN"	"cutout_clean"
+			"BEE2_OVERGROWN" "cutout_grass"
 			}
 		}
 	}
+
+"BrushTemplate"
+	{
+	"ID"   "QOL_CUTOUT_0_CLEAN"
+	"File" "cutout_0_template.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"   "QOL_CUTOUT_1_CLEAN"
+	"File" "cutout_1_template.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"   "QOL_CUTOUT_2_CLEAN"
+	"File" "cutout_2_template.vmf"
+	}
+
 "Item"
 	{
 	"ID" "QOL_BROKEN_SURF_1X1"
