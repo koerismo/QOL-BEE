@@ -6,9 +6,9 @@
 
 ***
 #### Index
-- (Features)[https://github.com/koerismo/QOL-BEE#features]
-- (Planned)[https://github.com/koerismo/QOL-BEE#planned-for-046]
-- (Known Issues)[https://github.com/koerismo/QOL-BEE#known-issues]
+- [Features](https://github.com/koerismo/QOL-BEE#features)
+- [Planned](https://github.com/koerismo/QOL-BEE#planned-for-046)
+- [Known Issues](https://github.com/koerismo/QOL-BEE#known-issues)
 ***
 
 
