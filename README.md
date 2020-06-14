@@ -27,13 +27,14 @@
 
 ## Planned for 0.4.6
 - Old aperture variant broken surfaces (skybox) **\[under review\]**
+- Grating floors and walls. (art therapy, overgrown)
 - Broken panels (overgrown)
 - Decal item (overgrown) (undecided) **\[under review\]**
 - Water and sparks particles
 - Redone 1x1 and 2x2 broken surfaces (overgrown, wheatley, art therapy)
 
 ## Planned (unknown version)
-- Grating walls and ceilings (clean, art therapy, overgrown) **\[under review\]**
+- Grating ceilings (clean, art therapy, overgrown) **\[under review\]**
 - Gel Pipes (old aperture, overgrown, clean)
 - Framework (overgrown, art therapy)
 
