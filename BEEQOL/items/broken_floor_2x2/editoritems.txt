@@ -10,7 +10,7 @@
 			"Name"		"Destroyed Floor 2x2 (High water)"
 			"Model"
 			{
-				"ModelName"	"broken_ceiling_256x256.3ds"
+				"ModelName"	"2x2_broken_floor.3ds"
 			}
 			"Palette"
 			{
@@ -30,7 +30,7 @@
 			"Name"		"Destroyed Floor 2x2 (Low water)"
 			"Model"
 			{
-				"ModelName"	"broken_ceiling_256x256.3ds"
+				"ModelName"	"2x2_broken_floor.3ds"
 			}
 			"Palette"
 			{

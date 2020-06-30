@@ -9,12 +9,12 @@
 				"Name"		"Soundscape"
 				"Model"
 					{
-					"ModelName"		"qol_soundscape.3ds"
+					"ModelName"		"sound.3ds"
 					}
 				"Palette"
 					{
 					"Tooltip"		"SOUNDSCAPE"
-					"Image"			"palette/BEE2/qol_soundscape.png"
+					"Image"			"palette/BEE2/soundscape.png"
 					}
 				"Sounds"
 					{
