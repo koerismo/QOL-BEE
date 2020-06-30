@@ -104,7 +104,7 @@
 				}
 			"3"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_1.vmf"
+				"Name"				"instances/BEE2/over/items/Cutout/Floor/Black_1.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
@@ -118,7 +118,7 @@
 				}
 			"5"
 				{
-				"Name"				"instances/BEE2/clean/items/Cutout/Floor/Black_0.vmf"
+				"Name"				"instances/BEE2/over/items/Cutout/Floor/Black_0.vmf"
 				"EntityCount"		"7"
 				"BrushCount"		"19"
 				"BrushSideCount"	"114"
