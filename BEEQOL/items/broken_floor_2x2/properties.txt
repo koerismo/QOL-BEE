@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Decoration"
+	"Authors"		"Baguettery"
+	"Description"	
+		{
+		"" "A 2x2 indented broken floor. Variant 1 has water. Variant 2 does not."
+		}
+	"infoURL"		""
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"clean/broken_ceil_64.png"
+		}
+	}

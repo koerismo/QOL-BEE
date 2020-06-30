@@ -101,6 +101,17 @@
 	}
 "Item"
 	{
+	"ID" "QOL_BROKEN_FLOOR_2X2"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_floor_2x2"
+			}
+		}
+	}
+"Item"
+	{
 	"ID" "QOL_BROKEN_CEILING_1X1"
 	"Version"
 		{
