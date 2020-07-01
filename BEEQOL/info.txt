@@ -57,6 +57,17 @@
 	}
 "Item"
 	{
+	"ID" "QOL_ACCENT_LIGHTS"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"accent_lights"
+			}
+		}
+	}
+"Item"
+	{
 	"ID" "QOL_FOLIAGE_FLOOR"
 	"Version"
 		{
@@ -96,6 +107,17 @@
 		"Styles"
 			{
 			"BEE2_CLEAN"	"broken_ceiling_2x2"
+			}
+		}
+	}
+"Item"
+	{
+	"ID" "QOL_BROKEN_CEILING_7X9"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"broken_ceiling_7x9"
 			}
 		}
 	}

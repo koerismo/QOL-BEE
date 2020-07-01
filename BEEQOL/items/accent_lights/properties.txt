@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"Baguettery"
+	"Tags"			"Portal 2;Utility"
+	"infoURL"		""
+	"Ent_Count"		"1"
+	"Description"
+		{
+			"" "Accent lights ranging from red to blue. Check start enabled to make it an ambient light."
+		}
+	"Icon"
+		{
+			"0"	"clean/soundscape.png"
+		}
+	}
