@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Decoration"
+	"Authors"		"Baguettery, nickbug"
+	"Description"	
+		{
+		"" "A 7x9 section of ceiling that has been torn apart. Instance courtesy of **nickbug**."
+		}
+	"infoURL"		""
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"clean/broken_ceil_64.png"
+		}
+	}

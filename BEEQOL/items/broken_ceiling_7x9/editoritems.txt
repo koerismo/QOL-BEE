@@ -1,0 +1,77 @@
+"Item"
+{
+	"Type"		"Broken Ceiling 7x9"
+	"ItemClass"	"ItemButtonFloor"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"		"Destroyed Ceiling 7x9"
+			"Model"
+			{
+				"ModelName"	"broken_ceiling_256x256.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"	"DESTROYED CEILING 7X9"
+				"Image"		"palette/BEE2/broken_ceil_64.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"DesiredFacing"		"DESIRES_DOWN"
+		"InvalidSurface"	"FLOOR WALL"
+		
+	}
+	"Properties"
+	{
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Ceiling/broken_ceiling_7x9.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+			"1"
+			{
+				"Name"				"instances/BEE2/over/items/Broken Ceiling/broken_ceiling_7x9.vmf"
+				"EntityCount"		"13"
+				"BrushCount"		"7"
+				"BrushSideCount"	"56"
+			}
+		}
+		"Offset"		"64 64 64"
+
+		"OccupiedVoxels"
+		{
+			"Volume"
+			{
+				"Pos1"		"0 0 0"
+				"Pos2"		"6 8 0"
+				"Surface"
+				{
+					"Normal"	"0 0 1"
+				}
+			}
+		}
+		"EmbeddedVoxels"
+		{
+			"Volume"
+			{
+				"Pos1"		"0 0 0"
+				"Pos2"		"6 8 -3"
+			}
+		}
+	}
+}
