@@ -9,5 +9,7 @@
 			"0"	"clean/debris0.png"
 			"1"	"clean/debris1.png"
 			"2"	"clean/debris2.png"
+			"3"	"clean/debris3.png"
+			"4"	"clean/debris4.png"
 		}
 	}

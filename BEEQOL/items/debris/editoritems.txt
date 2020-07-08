@@ -61,7 +61,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"1x2 Side"
+				"Name"		"1x2 Side A"
 				"Model"
 					{
 					"ModelName"		"debris3.3ds"
@@ -79,7 +79,7 @@
 				}
 			"SubType"
 				{
-				"Name"		"1x2 Side"
+				"Name"		"1x2 Side B"
 				"Model"
 					{
 					"ModelName"		"debris3.3ds"

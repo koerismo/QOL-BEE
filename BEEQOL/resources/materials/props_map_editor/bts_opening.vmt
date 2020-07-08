@@ -1,5 +1,5 @@
 UnLitGeneric
 {
     $baseTexture "props_map_editor\bts_opening.vmt"
-    $translucent
+    $translucent 1
 }

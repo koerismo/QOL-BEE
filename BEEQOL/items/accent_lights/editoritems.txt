@@ -10,7 +10,7 @@
 				"Name"		"Red"
 				"Model"
 					{
-					"ModelName"		"sound.3ds"
+					"ModelName"		"accent_lights/accent_red.3ds"
 					}
 				"Palette"
 					{
@@ -28,7 +28,25 @@
 				"Name"		"Orange"
 				"Model"
 					{
-					"ModelName"		"sound.3ds"
+					"ModelName"		"accent_lights/accent_orange.3ds"
+					}
+				"Palette"
+					{
+					"Tooltip"		"SOUNDSCAPE"
+					"Image"			"palette/BEE2/soundscape.png"
+					}
+				"Sounds"
+					{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+					}
+				}
+			"SubType"
+				{
+				"Name"		"Yellow"
+				"Model"
+					{
+					"ModelName"		"accent_lights/accent_yellow.3ds"
 					}
 				"Palette"
 					{
@@ -46,7 +64,7 @@
 				"Name"		"Green"
 				"Model"
 					{
-					"ModelName"		"sound.3ds"
+					"ModelName"		"accent_lights/accent_green.3ds"
 					}
 				"Palette"
 					{
@@ -64,25 +82,7 @@
 				"Name"		"Aqua"
 				"Model"
 					{
-					"ModelName"		"sound.3ds"
-					}
-				"Palette"
-					{
-					"Tooltip"		"SOUNDSCAPE"
-					"Image"			"palette/BEE2/soundscape.png"
-					}
-				"Sounds"
-					{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-					}
-				}
-			"SubType"
-				{
-				"Name"		"Blue"
-				"Model"
-					{
-					"ModelName"		"sound.3ds"
+					"ModelName"		"accent_lights/accent_aqua.3ds"
 					}
 				"Palette"
 					{
