@@ -57,8 +57,8 @@
 		{
 			"Volume"
 			{
-				"Pos1"		"0 0 0"
-				"Pos2"		"6 8 0"
+				"Pos1"		"1 1 0"
+				"Pos2"		"5 7 0"
 				"Surface"
 				{
 					"Normal"	"0 0 1"

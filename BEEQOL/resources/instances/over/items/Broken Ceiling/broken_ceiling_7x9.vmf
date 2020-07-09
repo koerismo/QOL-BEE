@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "17"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -409,158 +409,6 @@ world
 	}
 	solid
 	{
-		"id" "6722"
-		side
-		{
-			"id" "2933"
-			"plane" "(704 64 -32) (832 64 -32) (832 -64 -32)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2934"
-			"plane" "(704 -64 -448) (832 -64 -448) (832 64 -448)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2935"
-			"plane" "(704 64 -32) (704 -64 -32) (704 -64 -448)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2936"
-			"plane" "(832 64 -448) (832 -64 -448) (832 -64 -32)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2937"
-			"plane" "(832 64 -32) (704 64 -32) (704 64 -448)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2938"
-			"plane" "(832 -64 -448) (704 -64 -448) (704 -64 -32)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 213 154"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "6724"
-		side
-		{
-			"id" "2950"
-			"plane" "(-64 1088 -32) (64 1088 -32) (64 960 -32)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2949"
-			"plane" "(-64 960 -448) (64 960 -448) (64 1088 -448)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2948"
-			"plane" "(-64 1088 -32) (-64 960 -32) (-64 960 -448)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2947"
-			"plane" "(64 1088 -448) (64 960 -448) (64 960 -32)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2946"
-			"plane" "(64 1088 -32) (-64 1088 -32) (-64 1088 -448)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2945"
-			"plane" "(64 960 -448) (-64 960 -448) (-64 960 -32)"
-			"material" "/AAGD_PORTALGUN_BASE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 213 154"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "6725"
 		side
 		{
@@ -675,7 +523,7 @@ world
 		{
 			"id" "2971"
 			"plane" "(640 64 -64) (640 64 -96) (640 960 -96)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/METALWALL_BTS_006A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
 			"rotation" "0"
@@ -4760,7 +4608,7 @@ entity
 	"origin" "400 320.219 -275.57"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 10000]"
@@ -5961,7 +5809,7 @@ entity
 	"origin" "360 672.219 -80"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "200 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
