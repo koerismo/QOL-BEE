@@ -32,29 +32,29 @@
 	"File" "cutout_2_template.vmf"
 	}
 
-"Item"
-	{
-	"ID" "QOL_BROKEN_SURF_1X1"
-	"Version"
-		{
-		"Styles"
-			{
-			"BEE2_CLEAN"	"broken_surf_1x1"
-			"BEE2_OVERGROWN"
-				{
-					"Folder" "broken_surf_1x1"
-					"Instances"
-					{
-					"0" "instances/BEE2/over/items/Broken Wall/wall/1x1_0.vmf"
-					"1"  "instances/BEE2/over/items/Broken Wall/wall/1x1_1.vmf"
-					"2" "instances/BEE2/over/items/Broken Wall/wall/1x1_2.vmf"
-					"3" "instances/BEE2/over/items/Broken Wall/ceil/1x1_0.vmf"
-					"4" "instances/BEE2/over/items/Broken Wall/ceil/1x1_1.vmf"
-					}
-				}
-			}
-		}
-	}
+//"Item"
+//	{
+//	"ID" "QOL_BROKEN_SURF_1X1"
+//	"Version"
+//		{
+//		"Styles"
+//			{
+//			"BEE2_CLEAN"	"broken_surf_1x1"
+//			"BEE2_OVERGROWN"
+//				{
+//					"Folder" "broken_surf_1x1"
+//					"Instances"
+//					{
+//					"0" "instances/BEE2/over/items/Broken Wall/wall/1x1_0.vmf"
+//					"1"  "instances/BEE2/over/items/Broken Wall/wall/1x1_1.vmf"
+//					"2" "instances/BEE2/over/items/Broken Wall/wall/1x1_2.vmf"
+//					"3" "instances/BEE2/over/items/Broken Wall/ceil/1x1_0.vmf"
+//					"4" "instances/BEE2/over/items/Broken Wall/ceil/1x1_1.vmf"
+//					}
+//				}
+//			}
+//		}
+//	}
 "Item"
 	{
 	"ID" "QOL_ACCENT_LIGHTS"
