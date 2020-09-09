@@ -55,17 +55,17 @@
 //			}
 //		}
 //	}
-"Item"
-	{
-	"ID" "QOL_ACCENT_LIGHTS"
-	"Version"
-		{
-		"Styles"
-			{
-			"BEE2_CLEAN"	"accent_lights"
-			}
-		}
-	}
+//"Item"
+//	{
+//	"ID" "QOL_ACCENT_LIGHTS"
+//	"Version"
+//		{
+//		"Styles"
+//			{
+//			"BEE2_CLEAN"	"accent_lights"
+//			}
+//		}
+//	}
 "Item"
 	{
 	"ID" "QOL_FOLIAGE_FLOOR"
@@ -99,6 +99,33 @@
 			}
 		}
 	}
+
+// MINI BTS STUFF
+
+"Item"
+	{
+	"ID" "QOL_BTS_3X2"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"clean_bts_mini_3x2"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "QOL_BTS_2X2"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"clean_bts_mini_2x2"
+			}
+		}
+	}
+
 "Item"
 	{
 	"ID" "QOL_BROKEN_CEILING_2X2"

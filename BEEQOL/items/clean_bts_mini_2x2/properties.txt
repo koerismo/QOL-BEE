@@ -1,0 +1,16 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Decoration"
+	"Authors"		"Baguettery"
+	"Description"	
+		{
+		"" "A 2x2 section of wall that has a small area of bts exposed."
+		}
+	"infoURL"		""
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"clean/qol_icon_temp.png"
+			"1"	"clean/qol_icon_temp.png"
+		}
+	}
