@@ -19,11 +19,12 @@
 - [ ] Bts openings
 - [x] | bts ceiling large
 - [ ] | bts ceiling med
+- [x] | bts ceiling small
 - [ ] | bts wall large
 - [ ] | bts wall med
-- [ ] | bts wall small
+- [x] | bts wall small
 - [x] Soundscape **[WIP]**
-- [x] Accent Lights **[WIP]**
+- [x] ~~Accent Lights~~ **[REMOVED]**
 
 #### Bugfixes:
 - [x] Fixed glitchy 256x grating floor collision
