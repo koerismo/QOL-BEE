@@ -6,6 +6,7 @@
 
 ## Features as of 0.4.6
 - [ ] Water and sparks particles
+- [ ] Cable item
 - [x] 7x9 broken ceiling
 - [x] 1x1 broken ceiling
 - [x] | Overgrown variant
