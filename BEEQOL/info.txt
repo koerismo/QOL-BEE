@@ -128,6 +128,18 @@
 
 "Item"
 	{
+	"ID" "QOL_BTS_6X5"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"clean_bts_mini_6x5"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "QOL_BROKEN_CEILING_2X2"
 	"Version"
 		{

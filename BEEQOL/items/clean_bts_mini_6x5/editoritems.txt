@@ -6,14 +6,14 @@
 	{
 		"SubType"
 		{
-			"Name"		"BTS Opening 2x3"
+			"Name"		"BTS Opening 5x6"
 			"Model"
 			{
 				"ModelName"	"turret.3ds"
 			}
 			"Palette"
 			{
-				"Tooltip"	"BTS 2X3"
+				"Tooltip"	"BTS 5X6"
 				"Image"		"palette/BEE2/qol_icon_temp.png"
 			}
 			"Sounds"
@@ -38,14 +38,14 @@
 		{
 			"0"
 			{
-				"Name"				"instances/BEE2/clean/items/mini_bts/bts_hole_256x384.vmf"
+				"Name"				"instances/BEE2/clean/items/mini_bts/bts_hole_768x640.vmf"
 				"EntityCount"		"13"
 				"BrushCount"		"7"
 				"BrushSideCount"	"56"
 			}
 			"1"
 			{
-				"Name"				"instances/BEE2/clean/items/mini_bts/bts_hole_256x384.vmf"
+				"Name"				"instances/BEE2/clean/items/mini_bts/bts_hole_768x640.vmf"
 				"EntityCount"		"13"
 				"BrushCount"		"7"
 				"BrushSideCount"	"56"
@@ -57,8 +57,8 @@
 		{
 			"Volume"
 			{
-				"Pos1"		"0 0 0"
-				"Pos2"		"2 1 0"
+				"Pos1"		"1 1 0"
+				"Pos2"		"4 3 0"
 				"Surface"
 				{
 					"Normal"	"0 0 1"
@@ -69,8 +69,8 @@
 		{
 			"Volume"
 			{
-				"Pos1"		"0 0 0"
-				"Pos2"		"2 1 -2"
+				"Pos1"		"-1 0 0"
+				"Pos2"		"6 4 -2"
 				//"Pos1"		"-1 -1 0"
 				//"Pos2"		"3 2 -2"
 			}

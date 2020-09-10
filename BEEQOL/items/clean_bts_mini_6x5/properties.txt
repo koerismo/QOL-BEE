@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Decoration"
+	"Authors"		"Baguettery"
+	"Description"	
+		{
+		"" "A 3x2 section of ceiling that has a small area of bts exposed."
+		}
+	"infoURL"		""
+	"Ent_count"     "10"
+	"Icon"
+		{
+			"0"	"clean/qol_icon_temp.png"
+		}
+	}
