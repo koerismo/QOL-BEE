@@ -3,6 +3,9 @@
 ![GitHub issues](https://img.shields.io/github/issues/koerismo/QOL-BEE?color=333&style=flat-square)
  
  QOL Instances ported to PeTI
+ 
+## Notice
+Development has been ended on all versions of QOL, and updates will not be made. Keep this in mind before downloading!
 
 ***
 #### Index
